@@ -20,7 +20,7 @@ const Event = () => {
               Pameran karya milestone angkatan BYTE dengan tema Sustainable
               Development Goals
             </p>
-            <button className=" shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[400] rounded-[10px]">
+            <button className=" shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px]">
               KUNJUNGI
             </button>
           </div>
@@ -34,7 +34,7 @@ const Event = () => {
             <p className="mt-[10px] w-[292px] text-center text-[#fff] font-montserrat text-[16px] font-[400] tracking-[0.16px] leading-[140%]">
               Pertandingan basket dan futsal antar angkatan di HMIF
             </p>
-            <button className="mt-[20px] shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[400] rounded-[10px]">
+            <button className="mt-[20px] shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px]">
               KUNJUNGI
             </button>
           </div>
@@ -49,7 +49,7 @@ const Event = () => {
             Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap
             sebagai Informatikawan”
           </p>
-          <button className=" shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[400] rounded-[10px]">
+          <button className=" shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px]">
             KUNJUNGI
           </button>
         </div>

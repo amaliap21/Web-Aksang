@@ -19,7 +19,7 @@ const Hero = () => {
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s
       </p>
-      <button className="mt-[30px] ml-[130px] shrink-[2] w-[226px] h-[58px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[400] rounded-[10px] py-[10px] px-[20px]">
+      <button className="mt-[30px] ml-[130px] shrink-[2] w-[226px] h-[58px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px] py-[10px] px-[20px]">
         EXPLORE MORE
       </button>
     </div>
