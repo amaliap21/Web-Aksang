@@ -16,10 +16,12 @@ const Event = () => {
             <h2 className="w-[187px] h-[16px] text-center text-[#fff] font-montserrat text-[24px] font-[700]">
               Exhi(Byte)On
             </h2>
+
             <p className="mt-[10px] w-[292px] text-center text-[#fff] font-montserrat text-[16px] font-[400] tracking-[0.16px] leading-[140%]">
               Pameran karya milestone angkatan BYTE dengan tema Sustainable
               Development Goals
             </p>
+
             <button className=" shrink-[2] w-[150px] h-[25px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px]">
               KUNJUNGI
             </button>
