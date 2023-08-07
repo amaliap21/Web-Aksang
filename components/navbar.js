@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
+import ChevronIcon from "./icons/chevron-icon";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -41,7 +42,7 @@ const Navbar = () => {
           <Link key={item.name} href={item.url}>
             <li
               className={`${
-                pathname.startsWith(item.url) || pathname===item.url
+                pathname.toLowerCase().startsWith(item.url.toLowerCase()) || pathname === item.url
                   ? "text-custom-yellow"
                   : "text-white"
               }`}
@@ -50,6 +51,12 @@ const Navbar = () => {
             </li>
           </Link>
         ))}
+            <li
+              className={`text-white flex items-center justify-center gap-4`}
+            >
+              <ChevronIcon size={20} className="fill-white"/>
+             Test
+            </li>
       </ul>
     </nav>
   );
