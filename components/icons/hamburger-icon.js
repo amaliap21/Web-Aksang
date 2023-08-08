@@ -13,20 +13,20 @@ const HamburgerIcon = ({ size, className }) => {
       <path
         d="M2 2.1665H32"
         stroke="white"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M2 10.5H32"
         stroke="white"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       <path
         d="M2 18.833H32"
         stroke="white"
-        stroke-width="3"
-        stroke-linecap="round"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
     </svg>
   );
