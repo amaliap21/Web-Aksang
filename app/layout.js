@@ -1,7 +1,11 @@
+"use client";
 import Navbar from "@/components/navbar";
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
+import Footer from "@/components/footer";
 
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -19,11 +23,24 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const [expandNavbar, setExpandNavbar] = useState(false);
+
+  // Reset navbar everytime path changes
+  const pathname = usePathname();
+  useEffect(() => {
+    setExpandNavbar(false);
+  }, [pathname]);
+
   return (
     <html lang="en">
-      <body className={`${inter.className} ${montserrat.variable}`}>
-        <Navbar />
+      <body
+        className={`flex min-h-screen flex-col bg-custom-soft-black ${
+          expandNavbar && "overflow-hidden"
+        } ${inter.className} ${montserrat.variable}`}
+      >
+        <Navbar expandNavbar={expandNavbar} setExpandNavbar={setExpandNavbar} />
         {children}
+        <Footer />
       </body>
     </html>
   );
