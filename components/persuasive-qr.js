@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function PersuasiveQr({yellowText, whiteText, iconLeftUrl, qrImageUrl, buttonText}){
   return (
     <div className=' flex mt-8 bg-[#9999FF]/50 rounded-tr-[120px] h-[400px] '>

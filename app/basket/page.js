@@ -42,7 +42,7 @@ function basket() {
           </p>
         </div>
 
-       <PersuasiveQr iconLeftUrl="/bell.png" yellowText="Tunngu Apalagi," whiteText="Segera daftarkan tim kamu!!" qrImageUrl="/qr_code.png" buttonText="DAFTAR DISINI"/>
+       <PersuasiveQr iconLeftUrl="/bell.png" yellowText="Tunggu Apalagi," whiteText="Segera daftarkan tim kamu!!" qrImageUrl="/qr_code.png" buttonText="DAFTAR DISINI"/>
 
       </div>
     </main>
