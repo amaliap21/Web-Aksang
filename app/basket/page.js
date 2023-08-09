@@ -14,7 +14,7 @@ function basket() {
   ]
 
   return (
-    <main className='font-montserrat tracking-[0.54px]'>
+    <main className=' font-montserrat'>
 
       <div className='bg-[#092079] min-h-screen overflow-hidden'>
 
@@ -24,8 +24,8 @@ function basket() {
           <Image src="/garis_up.png" alt="Garis Background" width={478} height={591} className='absolute left-0 top-[940px]'/>
         </div>
 
-        <h1 className='pt-[111px] mb-[100px] flex items-center justify-center font-bold drop-shadow-md text-[54px] [text-shadow:_0px_4px_4px_#6D459A]  leading-[140%]'  >
-        <span className="text-custom-yellow">Byte </span> &nbsp;Basketball
+        <h1 className='pt-[111px] mb-[100px] flex justify-center font-bold drop-shadow-md text-[54px] [text-shadow:_0px_4px_4px_#6D459A]  leading-[140%] tracking-[0.54px]'  >
+          <span className="text-custom-yellow">Byte </span> &nbsp;Basketball
         </h1>
 
         <div className='flex mb-[200px] justify-center'>

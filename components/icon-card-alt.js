@@ -11,10 +11,9 @@ const IconCardAlt = ({
   imageAlt,
   width = 200,
   height = 200,
-  gradientDir = "tr"
 }) => {
   return (
-    <div className={`w-full sm:w-fit sm:max-w-[430px] lg:min-h-[260px] text-white px-10 pt-[75px] pb-12 lg:pt-[83px] lg:pb-7 font-montserrat items-center rounded-lg bg-gradient-to-${gradientDir} from-[#0f257f] to-[#3646a3] relative flex flex-col gap-2`}
+    <div className={`w-full sm:w-fit sm:max-w-[430px] lg:min-h-[260px] text-white px-10 pt-[75px] pb-12 lg:pt-[83px] lg:pb-7 font-montserrat items-center rounded-lg bg-gradient-to-tr from-[#0f257f] to-[#3646a3] relative flex flex-col gap-2`}
     >
       <Image
         src={imageUrl}
