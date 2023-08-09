@@ -27,13 +27,11 @@ export default function RootLayout({ children }) {
   }, [pathname]);
 
   return (
-    <html
-    lang="en"
-    className={`${inter.className} ${montserrat.variable}`}
-  >
+    <html lang="en" className={`${inter.className} ${montserrat.variable}`}>
       <body
-        className={`flex min-h-screen flex-col bg-custom-soft-black ${
-          expandNavbar && "overflow-hidden"}`}
+        className={`flex min-h-screen flex-col bg-custom-soft-black w-screen  overflow-x-hidden ${
+          expandNavbar && "overflow-hidden"
+        }`}
       >
         <Navbar expandNavbar={expandNavbar} setExpandNavbar={setExpandNavbar} />
         {children}

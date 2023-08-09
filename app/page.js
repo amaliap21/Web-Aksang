@@ -5,7 +5,7 @@ import React from "react";
 import IconCard from "@/components/icon-card";
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-20 p-10 lg:p-24 bg-custom-blue">
+    <main className="flex min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 lg:px-24 bg-custom-blue ">
       <Hero />
       <About />{" "}
       <section className="flex flex-col items-center justify-center">
