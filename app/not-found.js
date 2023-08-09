@@ -14,12 +14,12 @@ const NotFound = () => {
           alt="Error robots"
           className="w-[calc(100%-20px)] max-lg:max-w-[300px] lg:w-[350px] xl:w-[400px] 2xl:w-[500px] object-center object-contain"
         ></Image>
-        <div className="flex flex-col gap-6 lg:flex-auto justify-between lg:h-full lg:py-0 xl:py-32 2xl:py-10">
+        <div className="flex flex-col gap-6 lg:flex-auto justify-between lg:gap-20 2xl:gap-28">
           <div className="flex flex-col gap-10 font-montserrat text-white">
             <h1 className="font-bold text-8xl text-center lg:text-left lg:text-[200px] 2xl:text-[250px] p-0 m-0 lg:leading-[180px]">
               4<span className="text-[#2E7CC5]">0</span>4
             </h1>
-            <h2 className="tracking-wider text-center lg:text-left text-base lg:text-2xl 2xl:text-4xl">
+            <h2 className="tracking-wider text-center lg:text-left text-base lg:text-2xl 2xl:text-3xl">
               We can’t find the page that you’re looking for...
             </h2>
           </div>
@@ -28,11 +28,11 @@ const NotFound = () => {
               background:
                 "linear-gradient(270deg, #7721D6 0%, rgba(119, 33, 214, 0.60) 100%)",
             }}
-            className="w-full lg:w-fit flex text-base  lg:text-lg 2xl:text-2xl font-montserrat items-center justify-center gap-3 lg:gap-5 font-semibold px-6 lg:px-8 py-2 lg:py-3 border border-white rounded-2xl"
+            className="w-full lg:w-fit flex text-sm  lg:text-lg font-montserrat items-center justify-center gap-3 lg:gap-5 font-semibold px-6 lg:px-8 py-1 border border-white rounded-2xl"
           >
             <BackIcon
               size={40}
-              className="rotate-180 fill-white w-[25px] lg:w-[30px] aspect-square"
+              className="rotate-180 fill-white w-[25px] aspect-square"
             />
             <Link href="/">Back to Home</Link>
           </button>
