@@ -116,7 +116,12 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
                   size={30}
                   className={`${
                     isHovered ? "rotate-180" : "rotate-0"
-                  } transition duration-300 ease-in-out w-[20px] hover:fill-custom-yellow aspect-square fill-white group-hover/container:fill-custom-yellow`}
+                  } transition duration-300 ease-in-out w-[20px] hover:fill-custom-yellow aspect-square ${
+                    pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
+                    pathname === item.url
+                      ? "fill-custom-yellow"
+                      : "fill-white"
+                  } group-hover/container:fill-custom-yellow`}
                 />
                 {item.name}
               </button>
