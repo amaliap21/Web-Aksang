@@ -3,7 +3,7 @@ import PersuasiveQr from '@/components/persuasive-qr'
 import Image from 'next/image'
 import React from 'react'
 
-function basket() {
+function futsal() {
 
   const arrayKetentuan = [
     "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
@@ -26,7 +26,7 @@ function basket() {
         </div>
 
         <h1 className='pt-[60px] lg:pt-[111px] mb-[60px] lg:mb-[100px] flex justify-center font-bold drop-shadow-md text-[28px] lg:text-[54px] [text-shadow:_0px_4px_4px_#6D459A] leading-[140%] tracking-[0.54px]'  >
-          <span className="text-custom-yellow">Byte </span> &nbsp;Basketball
+          <span className="text-custom-yellow">Byte </span> &nbsp;Futsal
         </h1>
 
         <div className='flex mb-[120px] lg:mb-[200px] justify-center'>
@@ -41,7 +41,7 @@ function basket() {
             ))}
           </div>
 
-          <Image src="/bola_basket.png" alt="Bola Basket" width={500} height={500} className='self-center w-[150px] lg:w-[450px]'
+          <Image src="/bola_futsal.png" alt="Bola Futsal" width={500} height={500} className='self-center w-[150px] lg:w-[450px]'
           style={{
             background: "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%"
             }
@@ -49,8 +49,8 @@ function basket() {
         </div>
 
         <div className='flex flex-col lg:flex-row gap-14 lg:gap-[71px] justify-center items-center mb-[80px] lg:mb-[120px]'>
-          <IconCardAlt title={"Waktu"} description={"waktu basket waktu basket waktu basket waktu basket"} imageUrl={"/waktu.png"} imageAlt={"Logo Jam"} width={170} height={152}/>
-          <IconCardAlt title={"Tempat"} description={"tempat basket tempat basket tempat basket tempat basket "} imageUrl={"/tempat.png"} imageAlt={"LogoTempat"} width={112} height={170}/>
+          <IconCardAlt title={"Waktu"} description={"waktu futsal waktu futsal waktu futsal waktu futsal"} imageUrl={"/waktu.png"} imageAlt={"Logo Jam"} width={170} height={152}/>
+          <IconCardAlt title={"Tempat"} description={"tempat futsal tempat futsal tempat futsal tempat futsal "} imageUrl={"/tempat.png"} imageAlt={"LogoTempat"} width={112} height={170}/>
         </div>
  
 
@@ -68,4 +68,8 @@ function basket() {
   )
 }
 
-export default basket
+export default futsal
+export const metadata = {
+  title: "Futsal | Byte",
+  description: "Website aksi angkatan Byte",
+};
