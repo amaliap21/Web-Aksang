@@ -13,7 +13,7 @@ const Hero = () => {
       ></Image>
 
       <div className="flex flex-col md:flex-row overflow-hidden">
-        <div className="w-full overflow-hidden flex flex-col-reverse items-center justify-center lg:items-start lg:flex-row lg:justify-start gap-10 lg:gap-20">
+        <div className="w-full overflow-hidden flex flex-col-reverse items-center justify-center lg:items-start lg:flex-row lg:justify-start lg:gap-20">
           <div className="flex-1 flex flex-col justify-start px-25 py-10">
             <h1 className=" text-[#FADE7A] font-montserrat text-[28px] font-[700] tracking-[0.54px] leading-[140%]">
               Hello,
@@ -48,7 +48,7 @@ const Hero = () => {
             width={550}
             height={500}
             className="absolute right-[-10px] bottom-[-200px] z-[5] overflow-hidden"
-          ></Image>
+          />
         </div>
       </div>
     </div>
