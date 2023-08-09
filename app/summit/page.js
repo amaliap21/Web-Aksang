@@ -11,13 +11,13 @@ export default function SummitPage() {
       <div className="mx-20 pt-20 ">
         <h1 className= "montserrat font-bold relative text-[54px] tracking-[0.54px] text-5xl text-center">ByteTech <span className="text-[#FADE7A]">Summit</span></h1>
         <h2 className= "montserrat text-[36px] font-[500] p-2 tracking-[0.72px] text-center">Empowering Society’s Future Through Informatics</h2>
-        <p className= "p-10  w-[1080px] tracking-[0.16px] text-[16px] font-[4vw] flex text-center m-auto">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. Nisl purus in mollis nunc sed id semper risus. Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor pretium viverra suspendisse.</p>
+        <p className= "p-10 font-[400] w-[1080px] tracking-[0.16px] text-[16px] flex text-center m-auto">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. Nisl purus in mollis nunc sed id semper risus. Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor pretium viverra suspendisse.</p>
       </div>
 
 
       {/* ABOUT SPEAKER */}
       <div className="flex items-center justify-center border-radi rounded-[10px] shadow xl: shadow-white/20 h-[681px] w-[1241px] mx-auto" style={{"background": "linear-gradient(146deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.20) 100%)"}}>
-        <div className="flex flex-row gap-20 left-15 bg-white w-[1137px] h-[615px] rounded-lg p-20 flex overflow-y-hidden text-center snap-x snap-mandatory">
+        <div className=" flex-row gap-20 left-15 bg-white w-[1137px] h-[615px] rounded-lg p-20 flex overflow-y-hidden text-center snap-x snap-mandatory">
             <div className="flex flex-row flex-shrink-0 gap-10 snap-always snap-center">
                 <div className="flex flex-col ">
                     <h2 className= "text-[#092079] text-3xl montserrat font-[700] text-left text-[36px] pb-6">ABOUT SPEAKER,</h2>
