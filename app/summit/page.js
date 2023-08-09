@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import Benefit from '@/components/summit_benefit'
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+const textBenefit = [{texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 1'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 2'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 3'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 4'}]
 
 export default function SummitPage() {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   return (
     <main className="bg-[#092079] min-h-screen">
         <Image src="/summitbg.svg" alt="Background summit" width={572} height={572} className='w-[500px] aspect-square absolute z-10 top-0 left-[-80px]'></Image>
@@ -11,13 +13,13 @@ export default function SummitPage() {
       <div className="mx-20 pt-20 ">
         <h1 className= "montserrat font-bold relative text-[54px] tracking-[0.54px] text-5xl text-center">ByteTech <span className="text-[#FADE7A]">Summit</span></h1>
         <h2 className= "montserrat text-[36px] font-[500] p-2 tracking-[0.72px] text-center">Empowering Society’s Future Through Informatics</h2>
-        <p className= "p-10 font-[400] w-[1080px] tracking-[0.16px] text-[16px] flex text-center m-auto">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. Nisl purus in mollis nunc sed id semper risus. Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor pretium viverra suspendisse.</p>
+        <p className= "p-10  w-[1080px] tracking-[0.16px] text-[16px] font-[4vw] flex text-center m-auto">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. Nisl purus in mollis nunc sed id semper risus. Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor pretium viverra suspendisse.</p>
       </div>
 
 
       {/* ABOUT SPEAKER */}
       <div className="flex items-center justify-center border-radi rounded-[10px] shadow xl: shadow-white/20 h-[681px] w-[1241px] mx-auto" style={{"background": "linear-gradient(146deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.20) 100%)"}}>
-        <div className=" flex-row gap-20 left-15 bg-white w-[1137px] h-[615px] rounded-lg p-20 flex overflow-y-hidden text-center snap-x snap-mandatory">
+        <div className="flex-row gap-20 left-15 bg-white w-[1137px] h-[615px] rounded-lg p-20 flex overflow-y-hidden text-center snap-x snap-mandatory">
             <div className="flex flex-row flex-shrink-0 gap-10 snap-always snap-center">
                 <div className="flex flex-col ">
                     <h2 className= "text-[#092079] text-3xl montserrat font-[700] text-left text-[36px] pb-6">ABOUT SPEAKER,</h2>
@@ -58,15 +60,29 @@ export default function SummitPage() {
     </div>
 
       {/* Mengapa Harus Join Summit? */}
-      <div className="mx-auto ">
-        <h2 className="text-left text-[36px] font-[700] pt-20">Mengapa <span className="text-[#FADE7A]">Harus Join</span></h2>
-        <h2 className="text-left text-[36px] font-[700]"><span className="text-[#FADE7A]">Byte </span>Summit ?</h2>
-        <div className="flex border-radi rounded-[10px] h-[150px] w-[160px] mx-auto" style={{"background": "linear-gradient(154deg, rgba(153, 153, 255, 0.30) 0%, rgba(153, 153, 255, 0.19) 38.02%, rgba(153, 153, 255, 0.00) 100%)"
-}}></div>
-        <p className="montserrat text-[16px] w-[275px] h-[70px] font-[600] text-center">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. </p>
+    <Image src="/summitbgv2.svg" alt="Background summit2" width={572} height={572} className='w-[500px] aspect-square absolute z-10 bottom-[-700px] left-[-80px]'></Image>
+      <div class="flex item-center justify-center my-[100px]">
+        <div class= "w-fit flex justify-center flex-wrap">
+          <div class="mx-auto self-center z-0 ">
+            <Image src={"/giftNc.png"} alt="Gift" width={620} height={630}></Image>
+          </div>
+          <div class="flex flex-col gap-[60px] mx-auto">
+            <h1 class="w-4/6 break-words text-left font-montserrat font-bold text-[36px]">
+              Mengapa <span class="text-custom-yellow">Harus Join Byte</span> Summit?
+            </h1>
 
+            <div class="box-border w-[675px] gap-[60px] flex flex-wrap justify-between">
+              {
+                  textBenefit.map((text,index) => (
+                      <Benefit {... text} key={index}/>
+                      ))
+                    }
+            </div>
+          </div>
+        </div>
       </div>
       
+
     </main>
   )
 }
