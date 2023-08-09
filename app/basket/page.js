@@ -3,8 +3,18 @@ import Image from 'next/image'
 import React from 'react'
 
 function basket() {
+
+  const arrayKetentuan = [
+    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae. Odio urna nunc orci mus feugiat convallis amet vitae.",
+    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae. Odio urna nunc orci mus feugiat convallis amet vitae.",
+    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae. Odio urna nunc orci mus feugiat convallis amet vitae.",
+    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae. Odio urna nunc orci mus feugiat convallis amet vitae.",
+    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae. Odio urna nunc orci mus feugiat convallis amet vitae.",
+  ]
+
   return (
     <main>
+
       <div className='bg-[#092079] min-h-screen font-montserrat'>
         <h1 className='pt-[111px] mb-[100px] flex items-center justify-center font-bold drop-shadow-md text-[54px] [text-shadow:_3px_3px_0_rgb(143_102_221/_50%)]'  >
         <span className="text-custom-yellow">Byte </span> &nbsp; Basketball
@@ -15,22 +25,13 @@ function basket() {
             <h2 className='text-custom-yellow text-[36px] font-bold'>
               Ketentuan
             </h2>
-            <p className="bg-white/30 justify-center align-middle px-6 py-4 max-w-[654px] rounded-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            {arrayKetentuan.map((text) => (
+            <p className="bg-white/30 justify-center align-middle px-6 py-4 max-h-[98px] max-w-[654px] rounded-2xl text-justify">
+              {text}
             </p>
-            <p className="bg-white/30 justify-center align-middle px-6 py-4 max-w-[654px] rounded-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p className="bg-white/30 justify-center align-middle px-6 py-4 max-w-[654px] rounded-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p className="bg-white/30 justify-center align-middle px-6 py-4 max-w-[654px] rounded-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            ))}
           </div>
-
-          <Image src="/pemain_basket.png" alt="Pemain Basket" width={363} height={630}/>
-          
+          <Image src="/bola_basket.png" alt="Bola Basket" width={500} height={500} className='self-center'/>
         </div>
 
         <div className='flex gap-10 justify-center mb-[120px]'>
