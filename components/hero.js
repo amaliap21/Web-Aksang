@@ -7,9 +7,9 @@ const Hero = () => {
       <Image
         src="/home-atas.svg"
         alt="background atas"
-        width={800}
-        height={800}
-        className="absolute -left-0 top-0 z-[10]"
+        width={500}
+        height={500}
+        className="absolute -left-0 top-0 z-[1]"
       ></Image>
 
       <div className="flex flex-col md:flex-row overflow-hidden">
@@ -31,7 +31,7 @@ const Hero = () => {
               industry. Lorem Ipsum has been the industry&apos;s standard dummy
               text ever since the 1500s
             </p>
-            <button className="mt-[30px]  w-[226px] h-[58px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px] py-[10px] px-[20px]">
+            <button className="relative z-[99] mt-[30px]  w-[226px] h-[58px] text-[#FFF] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-[16px] font-[600] rounded-[10px] py-[10px] px-[20px]">
               EXPLORE MORE
             </button>
           </div>

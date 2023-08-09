@@ -57,6 +57,7 @@ const Home = () => {
 };
 
 export default Home;
+
 export const metadata = {
   title: "Byte",
   description: "Website aksi angkatan Byte",
