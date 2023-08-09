@@ -1,18 +1,42 @@
-import Image from 'next/image'
+import IconCard from "@/components/icon-card";
 
 export default function Home() {
   return (
-    <main className="bg-[#092079] min-h-screen">
-      <div className=" pt-10 ">
-        <h1 className= "font-['Montserrat'] relative text-5xl text-center">ByteTech <span className="text-[#FADE7A]">Summit</span></h1>
-        <h5 className= "p-2 text-center">empowering society’s future through informatics</h5>
-        <p className= "p-10 text-center">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. Nisl purus in mollis nunc sed id semper risus. Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor pretium viverra suspendisse.</p>
-      </div>
-      <div className=" mx-20 bg-white rounded-md">
-        <h5 className= "text-[#092079] text-bold p-6">ABOUT SPEAKER,</h5>
-        <p className= "text-[#092079] p-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-</p>
+    <main className="flex min-h-screen flex-col items-center justify-center p-10 lg:p-24 bg-custom-blue">
+     <h2 className="text-[28px] lg:text-5xl text-white font-montserrat font-bold"><span className="text-custom-yellow">Our </span>Event</h2>
+      <div className="flex flex-wrap items-center justify-center w-full gap-x-60 2xl:gap-x-80 gap-y-20 lg:gap-y-16 mt-16 md:mt-20 lg:mt-32">
+        <IconCard
+          title="ByteTech Summit"
+          description="Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”"
+          buttonText="KUNJUNGI"
+          buttonUrl="/"
+          imageAlt="Cup"
+          imageUrl="/mini-robot.png"
+        />
+        <IconCard
+          title="Cup"
+          description="Pertandingan basket dan futsal antar angkatan di HMIF"
+          buttonText="KUNJUNGI"
+          buttonUrl="/"
+          imageAlt="Peluit"
+          imageUrl={"/peluit.png"}
+        />
+        <IconCard
+          title="ByteTech Summit"
+          description="Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”"
+          buttonText="KUNJUNGI"
+          buttonUrl="/"
+          imageAlt="zoom"
+          width={150}
+          height={150}
+          imageUrl={"/zoom.png"}
+        />
       </div>
     </main>
-  )
+  );
 }
+
+export const metadata = {
+  title: "Byte",
+  description: "Website aksi angkatan Byte",
+};
