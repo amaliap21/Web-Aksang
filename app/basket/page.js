@@ -69,3 +69,7 @@ function basket() {
 }
 
 export default basket
+export const metadata = {
+  title: "Basket | Byte",
+  description: "Website aksi angkatan Byte",
+};
