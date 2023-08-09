@@ -14,14 +14,14 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row overflow-hidden">
         <div className="w-full overflow-hidden flex flex-col-reverse items-center justify-center lg:items-start lg:flex-row lg:justify-start lg:gap-20">
-          <div className="flex-1 flex flex-col justify-start px-25 py-10">
-            <h1 className=" text-[#FADE7A] font-montserrat text-[28px] font-[700] tracking-[0.54px] leading-[140%]">
+          <div className="flex-1 flex flex-col justify-start px-25">
+            <h1 className=" text-[#FADE7A] font-montserrat text-[30px] font-[700] tracking-[0.54px] leading-[140%]">
               Hello,
-              <span className="text-[#fff] font-montserrat text-[28px] font-[700]">
+              <span className="text-[#fff] font-montserrat text-[30px] font-[700]">
                 {" "}
                 Welcome to
               </span>{" "}
-              <span className="text-[#fff] font-montserrat text-[28px] font-[700]">
+              <span className="text-[#fff] font-montserrat text-[30px] font-[700]">
                 BYTE
               </span>{" "}
               Website
@@ -36,18 +36,19 @@ const Hero = () => {
             </button>
           </div>
           <Image
-            src="/home-laptop.png"
+            src="/laptop.png"
             alt="laptop"
-            width={600}
-            height={600}
-            className="w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] object-center object-contain"
+            width={500}
+            height={500}
+            className="w-[225px] h-[225px] lg:w-[400px] lg:h-[400px] z-[2] object-center object-contain"
           />
+
           <Image
             src="/home-laptop.svg"
             alt="background laptop"
-            width={550}
-            height={500}
-            className="absolute right-[-10px] bottom-[-200px] z-[5] overflow-hidden"
+            width={750}
+            height={700}
+            className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute right-[0] top-[100px] z-[1] overflow-hidden"
           />
         </div>
       </div>
