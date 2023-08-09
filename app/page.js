@@ -1,4 +1,4 @@
-import IconCard from "@/components/icon-card";
+import IconCard from "@/components/icon-card-alt";
 
 export default function Home() {
   return (
