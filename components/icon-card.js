@@ -25,11 +25,14 @@ const IconCard = ({
         alt={imageAlt}
         width={width}
         height={height}
+        priority
         className={`absolute w-[120px] h-[100px] lg:w-[${width}px] lg:h-[${height}px] object-center object-contain right-1/2 translate-x-1/2 -top-10 lg:bottom-[185px] `}
       />
       <div className="flex flex-col flex-1 justify-between gap-3">
         <div className="flex flex-col items-center justify-start gap-2">
-          <h3 className="text-xl lg:text-2xl text-center font-bold capitalize">{title}</h3>
+          <h3 className="text-xl lg:text-2xl text-center font-bold capitalize">
+            {title}
+          </h3>
           <p className="text-sm lg:text-base text-center">{description}</p>
         </div>
         <button
