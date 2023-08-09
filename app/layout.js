@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <body
-        className={`flex min-h-screen flex-col bg-custom-soft-black w-screen  overflow-x-hidden ${
+        className={`flex min-h-screen flex-col bg-custom-soft-black ${
           expandNavbar && "overflow-hidden"
         }`}
       >

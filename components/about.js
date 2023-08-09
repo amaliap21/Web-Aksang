@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className=" flex flex-col md:flex-col gap-5 overflow-hidden z-10">
-      <h1 className=" text-center text-[#FADE7A] font-montserrat text-[32px] font-[700] tracking-[0.54px] leading-[140%]">
+    <div className=" flex flex-col md:flex-col gap-5 lg:gap-10 overflow-hidden z-10">
+      <h1 className=" text-center text-[#FADE7A] font-montserrat text-[32px] lg:text-5xl font-[700] tracking-[0.54px] leading-[140%]">
         About{" "}
-        <span className=" text-center text-[#fff] font-montserrat text-[32px] font-[700]">
+        <span className=" text-center text-[#fff] font-montserrat font-[700]">
           Us
         </span>
       </h1>
