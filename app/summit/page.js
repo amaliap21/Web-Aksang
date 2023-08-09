@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import Benefit from '@/components/summit_benefit'
+
+const textBenefit = [{texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 1'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 2'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 3'}, {texts:'Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 4'}]
 
 export default function SummitPage() {
   return (
@@ -28,13 +31,24 @@ export default function SummitPage() {
 
 
       {/* Mengapa Harus Join Summit? */}
-      <div className="mx-auto ">
-        <h5 className="text-left text-[36px] font-[700] pt-20">Mengapa <span className="text-[#FADE7A]">Harus Join</span></h5>
-        <h5 className="text-left text-[36px] font-[700]"><span className="text-[#FADE7A]">Byte </span>Summit ?</h5>
-        <div className="flex border-radi rounded-[10px] h-[150px] w-[160px] mx-auto" style={{"background": "linear-gradient(154deg, rgba(153, 153, 255, 0.30) 0%, rgba(153, 153, 255, 0.19) 38.02%, rgba(153, 153, 255, 0.00) 100%)"
-}}></div>
-        <p className="montserrat text-[16px] w-[275px] h-[70px] font-[600] text-center">Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. </p>
-
+      <div class="flex item-center justify-center my-[100px]">
+        <div class= "w-fit flex justify-center flex-wrap">
+          <div class="mx-auto self-center z-[999] ">
+            <Image src={"/giftNc.png"} alt="Gift" width={620} height={630}></Image>
+          </div>
+          <div class="flex flex-col gap-[60px] mx-auto">
+            <h1 class="w-4/6 break-words text-left font-montserrat font-bold text-[36px]">
+              Mengapa <span class="text-custom-yellow">Harus Join Byte</span> Summit?
+            </h1>
+            <div class="box-border w-[675px] gap-[60px] flex flex-wrap justify-between">
+              {
+                textBenefit.map((text,index) => (
+                  <Benefit {... text} key={index}/>
+                  ))
+                }
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   )
