@@ -10,7 +10,7 @@ const About = () => {
           Us
         </span>
       </h1>
-      <p className="mt-[40px] ml-auto pr-[130px] flex break-all w-[750px] h-[308] text-[#FFF] font-montserrat text-[16px] font-[400] tracking-[0.16px] leading-[140%]">
+      <p className=" mt-[40px] ml-auto pl-[130px] flex break-all w-[750px] h-[308] text-[#FFF] font-montserrat text-[16px] font-[400] tracking-[0.16px] leading-[140%]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -32,16 +32,16 @@ const About = () => {
         <Image
           src="/home-gajah.png"
           alt="gajah"
-          width={500}
-          height={500}
-          className="absolute left-[425px] bottom-[-50px] z-[10]"
+          width={800}
+          height={800}
+          className="absolute left-[-365px] bottom-[-300px] z-[10]"
         ></Image>
         <Image
-          src="/home-about.svg"
+          src="/home-gajah.svg"
           alt="background"
           width={550}
           height={500}
-          className="absolute left-[525px] bottom-[-200px] z-[5]"
+          className="absolute left-[-385px] bottom-[-120px] z-[5]"
         ></Image>
       </div>
     </div>
