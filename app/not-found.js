@@ -8,7 +8,7 @@ const NotFound = () => {
     <main className="flex w-screen h-screen fixed z-[10000] items-center justify-center bg-custom-blue py-28 px-20 lg:p-40 2xl:px-[300px]">
       <div className="flex flex-col w-full xl:h-full items-center lg:items-center lg:justify-center lg:flex-row gap-10 lg:gap-20 2xl:gap-32">
         <Image
-          src="/robot.404.png"
+          src="/robot-404.png"
           width="1920"
           height="1080"
           alt="Error robots"
