@@ -29,11 +29,11 @@ const Navbar = ({ expandNavbar, setExpandNavbar }) => {
       subtitle: [
         {
           name: "Futsal",
-          url: "/cup/basket/futsal",
+          url: "futsal",
         },
         {
           name: "Basket",
-          url: "/cup/basket",
+          url: "basket",
         },
       ],
     },
@@ -137,7 +137,7 @@ const Navbar = ({ expandNavbar, setExpandNavbar }) => {
               >
                 {/* Mapping dropdown content */}
                 {item.subtitle.map((subitem, index) => (
-                  <Link key={index} href={`/cup/${subitem.url}`}>
+                  <Link key={index} href={`${item.url}/${subitem.url}`}>
                     <li
                       className={`${
                         pathname.includes(subitem.url)
