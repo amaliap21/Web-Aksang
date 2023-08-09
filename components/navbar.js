@@ -8,7 +8,7 @@ import { useRef, useEffect } from "react";
 import HamburgerIcon from "./icons/hamburger-icon";
 import CrossIcon from "./icons/cross-icon";
 
-const Navbar = ({expandNavbar, setExpandNavbar}) => {
+const Navbar = ({ expandNavbar, setExpandNavbar }) => {
   const pathname = usePathname();
   const [isHovered, setIsHovered] = useState(false);
   const blackBgRef = useRef(null);
@@ -29,11 +29,11 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
       subtitle: [
         {
           name: "Futsal",
-          url: "futsal",
+          url: "/cup/basket/futsal",
         },
         {
           name: "Basket",
-          url: "basket",
+          url: "/cup/basket",
         },
       ],
     },
@@ -99,7 +99,7 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
             <li
               key={item.name}
               className={`relative hover:fill-custom-yellow ${
-                pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
+                pathname.toLowerCase().includes(item.url.toLowerCase()) ||
                 pathname === item.url
                   ? "text-custom-yellow"
                   : "text-white"
@@ -156,8 +156,7 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
             <Link key={item.name} href={item.url}>
               <li
                 className={`${
-                  pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
-                  pathname === item.url
+                  pathname.toLowerCase() === item.url.toLowerCase()
                     ? "text-custom-yellow"
                     : "text-white"
                 } hover:text-custom-yellow`}
