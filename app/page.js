@@ -1,42 +1,80 @@
-import IconCard from "@/components/icon-card-alt";
-
-export default function Home() {
+import Hero from "@/components/hero";
+import About from "@/components/about";
+import React from "react";
+import IconCard from "@/components/icon-card";
+import Image from "next/image";
+const Home = () => {
+  const events = [
+    {
+      title: "ByteTech Summit",
+      description:
+        "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
+      buttonText: "KUNJUNGI",
+      buttonUrl: "/",
+      imageAlt: "Cup",
+      imageUrl: "/mini-robot.png",
+      width: 200,
+      height: 200,
+    },
+    {
+      title: "Cup",
+      description: "Pertandingan basket dan futsal antar angkatan di HMIF",
+      buttonText: "KUNJUNGI",
+      buttonUrl: "/",
+      imageAlt: "Peluit",
+      imageUrl: "/peluit.png",
+      width: 200,
+      height: 200,
+    },
+    {
+      title: "ByteTech Summit",
+      description:
+        "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
+      buttonText: "KUNJUNGI",
+      buttonUrl: "/",
+      imageAlt: "zoom",
+      imageUrl: "/zoom.png",
+      width: 150,
+      height: 150,
+    },
+  ];
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-10 lg:p-24 bg-custom-blue">
-      <h2 className="text-[28px] lg:text-5xl text-white font-montserrat font-bold">
-        <span className="text-custom-yellow">Our </span>Event
-      </h2>
-      <div className="flex flex-wrap items-center justify-center w-full gap-x-60 2xl:gap-x-80 gap-y-20 lg:gap-y-16 mt-16 md:mt-20 lg:mt-32">
-        <IconCard
-          title="Exhi(Byte)On"
-          description="Pameran teknologi yang mengangkat tema isu-isu global serta permasalahan di lingkungan kampus."
-          buttonText="KUNJUNGI"
-          buttonUrl="/"
-          imageAlt="Cup"
-          imageUrl="/mini-robot.png"
+    <main className="flex relative min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 sm:px-20 md:px-24 lg:py-24 lg:px-20 2xl:px-32 bg-custom-blue ">
+        <Image
+          src="/back-bawah.svg"
+          alt="Background bawah"
+          width={750}
+          height={700}
+          className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute -right-[270px] sm:-right-48 md:-right-52 2xl:right-0 -bottom-20 z-[1] overflow-hidden"
         />
-        <IconCard
-          title="Cup"
-          description="Pertandingan basket dan futsal antar angkatan di HMIF"
-          buttonText="KUNJUNGI"
-          buttonUrl="/"
-          imageAlt="Peluit"
-          imageUrl={"/peluit.png"}
-        />
-        <IconCard
-          title="ByteTech Summit"
-          description="Puncak acara yang mewadahi talkshow dengan topik seputar keprofesian di bidang informatika."
-          buttonText="KUNJUNGI"
-          buttonUrl="/"
-          imageAlt="zoom"
-          width={150}
-          height={150}
-          imageUrl={"/zoom.png"}
-        />
-      </div>
+         
+      <Hero />
+      <About />{" "}
+      <section className="flex flex-col items-center justify-center">
+        <h2 className="text-[32px] lg:text-5xl text-white font-montserrat font-bold">
+          <span className="text-custom-yellow">Our </span>Event
+        </h2>
+        <div className="flex flex-wrap items-center justify-center w-full gap-x-60 2xl:gap-x-80 gap-y-20 lg:gap-y-16 mt-16 md:mt-20 lg:mt-24">
+          {events.map((event, index) => (
+            <IconCard
+              key={index}
+              title={event.title}
+              description={event.description}
+              buttonText={event.buttonText}
+              buttonUrl={event.buttonUrl}
+              imageAlt={event.imageAlt}
+              imageUrl={event.imageUrl}
+              width={event.width}
+              height={event.height}
+            />
+          ))}
+        </div>
+      </section>
     </main>
   );
-}
+};
+
+export default Home;
 
 export const metadata = {
   title: "Byte",
