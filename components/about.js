@@ -6,7 +6,7 @@ const About = () => {
     <div className=" flex flex-col md:flex-col gap-5 lg:gap-10 overflow-hidden z-10">
       <h1 className=" text-center text-[#FADE7A] font-montserrat text-[32px] lg:text-5xl font-[700] tracking-[0.54px] leading-[140%]">
         About{" "}
-        <span className=" text-center text-[#fff] font-montserrat font-[700]">
+        <span className=" text-center text-white font-montserrat font-[700]">
           Us
         </span>
       </h1>
@@ -27,7 +27,7 @@ const About = () => {
             className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute -left-[130px] top-[590px] z-[-1] overflow-hidden"
           />
           <div className="flex-1 flex flex-col justify-start px-25">
-            <p className=" flex break-all  text-[#FFF] font-montserrat text-[16px] font-[400] tracking-[0.16px] leading-[140%]">
+            <p className=" flex break-all  text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
