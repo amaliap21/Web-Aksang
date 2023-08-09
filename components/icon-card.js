@@ -25,7 +25,7 @@ const IconCard = ({
         alt={imageAlt}
         width={width}
         height={height}
-        className={`absolute w-[120px] h-[100px] lg:w-[${width}px] lg:h-[${height}px] object-center object-contain right-1/2 translate-x-1/2 -top-10 lg:bottom-[185px] `}
+        className={`absolute w-[120px] h-[100px] object-center object-contain right-1/2 translate-x-1/2 -top-10 lg:bottom-[185px] `}
       />
       <div className="flex flex-col flex-1 justify-between gap-3">
         <div className="flex flex-col items-center justify-start gap-2">
