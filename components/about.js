@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div>
-      <h1 className="mt-[150px] text-center text-[#FADE7A] font-montserrat text-[54px] font-[700] tracking-[0.54px] leading-[140%]">
+      <h1 className=" text-center text-[#FADE7A] font-montserrat text-[54px] font-[700] tracking-[0.54px] leading-[140%]">
         About{" "}
         <span className=" text-center text-[#fff] font-montserrat text-[54px] font-[700]">
           Us
@@ -26,6 +27,23 @@ const About = () => {
         et molestie ac feugiat sed lectus vestibulum. Nisl nunc mi ipsum
         faucibus vitae aliquet nec ullamcorper.
       </p>
+
+      <div className="relative">
+        <Image
+          src="/home-gajah.png"
+          alt="gajah"
+          width={500}
+          height={500}
+          className="absolute left-[425px] bottom-[-50px] z-[10]"
+        ></Image>
+        <Image
+          src="/home-about.svg"
+          alt="background"
+          width={550}
+          height={500}
+          className="absolute left-[525px] bottom-[-200px] z-[5]"
+        ></Image>
+      </div>
     </div>
   );
 };
