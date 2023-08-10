@@ -15,7 +15,7 @@ const DocumentationCard = ({ imageUrl, alt, eventName }) => {
         className="w-full h-[180px] md:h-[240px] lg:h-[484px] object-center object-cover rounded-3xl border-2 lg:border-4 border-[#9999ff] drop-shadow-[0px_2px_5px_12px_#9999ff]"
         style={{ "box-shadow": "0px 4px 4px 0px rgba(249, 238, 238, 0.25)" }}
       />
-      <p className="text-white font-montserrat font-semibold text-lg lg:text-2xl">
+      <p className="text-white font-montserrat font-semibold text-lg lg:text-xl">
         {eventName}
       </p>
     </div>
