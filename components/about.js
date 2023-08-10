@@ -28,22 +28,17 @@ const About = () => {
           />
           <div className="flex-1 flex flex-col justify-start px-25">
             <p className=" flex break-all  text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              “Byte” sebagai wadah untuk mengaktualisasi diri yang dapat
+              memahami posisi peran dalam berhimpun, serta mengembangkan rasa
+              empati dalam mewujudkan ikatan kekeluargaan sebagai satu angkatan.
               <br />
               <br />
-              Quam quisque id diam vel quam. Ac auctor augue mauris augue. Enim
-              sed faucibus turpis in eu mi bibendum neque egestas. Placerat in
-              egestas erat imperdiet sed. Sed odio morbi quis commodo odio
-              aenean. Tincidunt tortor aliquam nulla facilisi cras fermentum
-              odio eu feugiat. Faucibus et molestie ac feugiat sed lectus
-              vestibulum. Nisl nunc mi ipsum faucibus vitae aliquet nec
-              ullamcorper.
+              Terdapat komitmen yang kuat untuk memahami dengan mendalam peran
+              serta potensi yang dimiliki, baik dalam lingkungan angkatan maupun
+              dalam himpunan secara keseluruhan. Kami bersemangat untuk
+              mengoptimalkan setiap potensi dan peran yang kami miliki saat kami
+              bersatu, dengan harapan dapat mencapai tingkat aktualisasi diri
+              yang lebih tinggi dari sebelumnya.
             </p>
           </div>
         </div>

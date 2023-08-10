@@ -6,11 +6,11 @@ import React from "react";
 function Basket() {
   // Array of Ketentuan (Rules) for Basket
   const arrayKetentuan = [
-    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
-    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
-    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
-    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
-    "Lorem ipsum dolor sit amet consectetur. Odio urna nunc orci mus feugiat convallis amet vitae.",
+    "Anggota tim merupakan mahasiswa aktif dari warga HMIF atau mahasiswa IF/STI angkatan 2022. Pendaftaran tim akan dibuka pada 9  - 12 Agustus 2023.",
+    "Setiap tim yang bertanding adalah tim yang terdaftar sebagai peserta cup. Setiap tim mengirim perwakilan sebanyak 7-8 pemain dan pemain hanya dapat bermain untuk satu tim saja.",
+    "Sistem pertandingan adalah sistem knock-out, sehingga tim yang menang akan lanjut ke babak berikutnya, dan yang kalah akan langsung gugur.",
+    "Tim dinyatakan kalah W.O. (WalkOut) jika keterlambatan sudah melewati batas toleransi, yaitu 10 menit dari jadwal. Tim lawan akan diberikan kemenangan dengan skor 20-0.",
+    "Setiap pemain wajib menggunakan sepatu dan pelindung kaki (decker). Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
   ];
 
   // Return the JSX markup for the component
@@ -91,7 +91,13 @@ function Basket() {
           {/* Icon Card for Waktu */}
           <IconCardAlt
             title={"Waktu"}
-            description={"waktu basket waktu basket waktu basket waktu basket"}
+            description={
+              <>
+                1. Babak 8 besar: 14 Agustus 2023 (08.00 - 12.00 WIB) <br /> 2.
+                Semifinal dan Final: 15 Agustus 2023 (08.00 - 12.00 WIB){" "}
+              </>
+            }
+
             imageUrl={"/waktu.png"}
             imageAlt={"Logo Jam"}
             width={170}
@@ -101,7 +107,7 @@ function Basket() {
           <IconCardAlt
             title={"Tempat"}
             description={
-              "tempat basket tempat basket tempat basket tempat basket"
+              "Lapangan Basket Pasaga. Jalan Cisitu Indah VI (Lembah Cisitu), Bandung."
             }
             imageUrl={"/tempat.png"}
             imageAlt={"LogoTempat"}
@@ -116,7 +122,7 @@ function Basket() {
         iconLeftUrl="/bell.png"
         yellowText="Tunggu Apalagi,"
         whiteText="Segera daftarkan tim kamu!!"
-        qrImageUrl="/qr_code.png"
+        qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
       />
     </main>
