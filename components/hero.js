@@ -27,7 +27,7 @@ const Hero = () => {
               </span>{" "}
               Website
             </h1>
-            <p className="mt-[15px] flex  text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
+            <p className="mt-[15px] flex break-normal text-justify text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
               “Byte” merupakan anggota dari angkatan IF/STI 2022. Selamat datang
               di kanal media Byte, yuk eksplorasi bersama!
             </p>

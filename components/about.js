@@ -27,7 +27,7 @@ const About = () => {
             className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute -left-[130px] top-[590px] z-[-1] overflow-hidden"
           />
           <div className="flex-1 flex flex-col justify-start px-25">
-            <p className=" flex break-all  text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
+            <p className=" flex break-normal text-justify text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
               “Byte” sebagai wadah untuk mengaktualisasi diri yang dapat
               memahami posisi peran dalam berhimpun, serta mengembangkan rasa
               empati dalam mewujudkan ikatan kekeluargaan sebagai satu angkatan.

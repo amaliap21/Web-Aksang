@@ -11,7 +11,7 @@ const Home = () => {
       title: "Cup",
       description: "Pertandingan basket dan futsal antar angkatan di HMIF",
       buttonText: "KUNJUNGI",
-      buttonUrl: "/",
+      buttonUrl: "/cup/futsal",
       imageAlt: "Cup",
       imageUrl: "/peluit.png",
       width: 200,

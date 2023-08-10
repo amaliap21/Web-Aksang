@@ -32,9 +32,11 @@ export default function PersuasiveQr({
             height={150}
           />
         </div>
-        <button className="mx-auto w-[156px] h-[44px] lg:w-[226px] lg:h-[60px] text-[14px] lg:text-xl bg-[#C53998] border-[#9999FF] mt-[20px] font-semibold rounded-2xl border drop-shadow-xl ">
-          {buttonText}
-        </button>
+        <a href="https://bit.ly/DaftarBYTECup">
+          <button className="mx-auto w-[156px] h-[44px] lg:w-[226px] lg:h-[60px] text-[14px] lg:text-xl bg-[#C53998] border-[#9999FF] mt-[20px] font-semibold rounded-2xl border drop-shadow-xl ">
+            {buttonText}
+          </button>
+        </a>
       </div>
     </div>
   );
