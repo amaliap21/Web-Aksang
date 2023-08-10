@@ -29,7 +29,7 @@ const Home = () => {
     },
     {
       title: "ByteTech Summit",
-      description: "Pertandingan basket dan futsal antar angkatan di HMIF",
+      description: "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
       buttonText: "KUNJUNGI",
       buttonUrl: "/summit",
       imageAlt: "ByteTech Summit",
