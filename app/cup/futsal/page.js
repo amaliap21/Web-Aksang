@@ -63,6 +63,17 @@ function Futsal() {
             <h2 className="text-custom-yellow text-[24px] lg:text-[40px] font-bold">
               Ketentuan
             </h2>
+            <Image
+            src="/bola_futsal.png"
+            alt="Bola Futsal"
+            width={500}
+            height={500}
+            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+            style={{
+              background:
+                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+            }}
+          />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -79,7 +90,7 @@ function Futsal() {
             alt="Bola Futsal"
             width={500}
             height={500}
-            className="self-center w-[130px] lg:w-[400px]"
+            className="hidden lg:block self-center w-[130px] lg:w-[400px]"
             style={{
               background:
                 "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
@@ -134,19 +145,19 @@ export default Futsal;
 export const metadata = {
   title: "Futsal | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Futsal | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
-    url: "https://web-aksang.vercel.app/",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",
@@ -159,10 +170,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Futsal | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",

@@ -58,10 +58,21 @@ function Basket() {
 
         {/* Ketentuan (Rules) Section */}
         <div className="flex mb-[120px] lg:mb-[200px] justify-center gap-3 lg:gap-20 2xl:gap-40">
-          <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
+        <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
             <h2 className="text-custom-yellow text-[24px] lg:text-[40px] font-bold">
               Ketentuan
             </h2>
+            <Image
+            src="/bola_basket.png"
+            alt="Bola basket"
+            width={500}
+            height={500}
+            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+            style={{
+              background:
+                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+            }}
+          />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -72,13 +83,13 @@ function Basket() {
               </p>
             ))}
           </div>
-          {/* Image of Bola Basket (Basketball) */}
+          {/* Image of Bola basket */}
           <Image
             src="/bola_basket.png"
             alt="Bola basket"
             width={500}
             height={500}
-            className="self-center w-[130px] lg:w-[400px]"
+            className="hidden lg:block self-center w-[130px] lg:w-[400px]"
             style={{
               background:
                 "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
@@ -97,7 +108,6 @@ function Basket() {
                 Semifinal dan Final: 15 Agustus 2023 (08.00 - 12.00 WIB){" "}
               </>
             }
-
             imageUrl={"/waktu.png"}
             imageAlt={"Logo Jam"}
             width={170}
@@ -135,19 +145,19 @@ export default Basket;
 export const metadata = {
   title: "Basket | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
-    url: "https://web-aksang.vercel.app/",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",
@@ -160,10 +170,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",
