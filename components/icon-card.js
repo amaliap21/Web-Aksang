@@ -29,16 +29,12 @@ const IconCard = ({
       />
       <div className="flex flex-col flex-1 justify-between gap-3">
         <div className="flex flex-col items-center justify-start gap-2">
-          <h3 className="text-xl lg:text-2xl text-center font-bold capitalize">{title}</h3>
-          <p className="text-sm lg:text-base text-center">{description}</p>
+          <h3 className="text-xl lg:text-2xl text-center font-bold capitalize">
+            {title}
+          </h3>
+          <p className="text-base lg:text-lg text-center">{description}</p>
         </div>
-        <button
-          style={{
-            background:
-              "linear-gradient(270deg, #7721D6 0%, rgba(119, 33, 214, 0.40) 100%)",
-          }}
-          className="text-center rounded-2xl px-10 font-semibold font-montserrat py-0.5"
-        >
+        <button className="text-center hover:bg-[#9250d9] bg-gradient-to-r from-[#7721d6] to-[#7721D68A] transition duration-300 rounded-2xl px-10 font-semibold font-montserrat py-1">
           <Link href={`${buttonUrl}`}>{buttonText}</Link>
         </button>
       </div>
