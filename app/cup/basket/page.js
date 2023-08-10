@@ -97,7 +97,6 @@ function Basket() {
                 Semifinal dan Final: 15 Agustus 2023 (08.00 - 12.00 WIB){" "}
               </>
             }
-
             imageUrl={"/waktu.png"}
             imageAlt={"Logo Jam"}
             width={170}
@@ -135,19 +134,19 @@ export default Basket;
 export const metadata = {
   title: "Basket | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
-    url: "https://web-aksang.vercel.app/",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",
@@ -160,10 +159,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 23, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
     images: [
       {
-        url: "https://web-aksang.vercel.app/logo.png",
+        url: "https://byte22.steikitb.site/logo.png",
         width: 1200,
         height: 630,
         alt: "Byte Logo",
