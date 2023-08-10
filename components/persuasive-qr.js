@@ -18,7 +18,7 @@ export default function PersuasiveQr({
           <h2 className="text-[20px] lg:text-[45px] font-bold ">
             <span className="text-custom-yellow">{yellowText} </span> <br />
           </h2>
-          <h2 className="text-[16px] lg:text-[45px] font-bold xl:indent-7 2xl:indent-12">
+          <h2 className="text-[16px] lg:text-[45px] text-white font-bold xl:indent-7 2xl:indent-12">
             {whiteText}
           </h2>
         </div>
@@ -34,7 +34,7 @@ export default function PersuasiveQr({
           />
         </div>
         <Link href="https://bit.ly/DaftarBYTECup">
-          <button className="mx-auto w-[156px] h-[44px] lg:w-[226px] lg:h-[60px] text-[14px] lg:text-xl bg-[#C53998] border-[#9999FF] mt-[20px] font-semibold rounded-2xl border drop-shadow-xl ">
+          <button className="mx-auto w-[156px] text-white h-[44px] lg:w-[226px] lg:h-[60px] text-[14px] lg:text-xl bg-[#C53998] border-[#9999FF] mt-[20px] font-semibold rounded-2xl border drop-shadow-xl ">
             {buttonText}
           </button>
         </Link>
