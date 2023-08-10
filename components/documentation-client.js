@@ -76,7 +76,7 @@ const DocumentationClient = ({ documentationData }) => {
           <ChevronIcon className="stroke-white w-[20px] h-[20px] lg:w-[45px] lg:h-[45px]" />
         </button>
       </div>
-      <div className="flex w-full items-center justify-center pb-10">
+      <div className="flex w-full items-center justify-center pb-10 lg:pb-24">
         {/* Display pagination component */}
         <Pagination
           numberPage={numberPage}
