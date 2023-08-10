@@ -53,7 +53,7 @@ function Futsal() {
         </div>
 
         {/* Main Title */}
-        <h1 className="pt-[60px] lg:pt-[111px] mb-[60px] lg:mb-[100px] flex justify-center font-bold drop-shadow-md text-[28px] lg:text-[54px] [text-shadow:_0px_4px_4px_#6D459A] leading-[140%] tracking-[0.54px]">
+        <h1 className="pt-[60px] lg:pt-[111px] mb-[60px] lg:mb-[100px] flex justify-center font-bold drop-shadow-md text-[28px] lg:text-[54px] [text-shadow:_0px_4px_4px_#6D459A] leading-[140%] text-white tracking-[0.54px]">
           <span className="text-custom-yellow">Byte </span> &nbsp;Futsal
         </h1>
 
@@ -79,7 +79,7 @@ function Futsal() {
             {arrayKetentuan.map((text, index) => (
               <p
                 key={index} // Use index as the key
-                className="bg-white/30 justify-center align-middle px-6 py-4 min-h-[98px] max-w-[654px] rounded-2xl text-justify text-[16px] lg:text-xl"
+                className="bg-white/30 justify-center align-middle px-6 py-4 min-h-[98px] text-white max-w-[654px] rounded-2xl text-justify text-[16px] lg:text-xl"
               >
                 {text}
               </p>
