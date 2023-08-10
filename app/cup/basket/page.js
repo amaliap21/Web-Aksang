@@ -58,10 +58,21 @@ function Basket() {
 
         {/* Ketentuan (Rules) Section */}
         <div className="flex mb-[120px] lg:mb-[200px] justify-center gap-3 lg:gap-20 2xl:gap-40">
-          <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
+        <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
             <h2 className="text-custom-yellow text-[24px] lg:text-[40px] font-bold">
               Ketentuan
             </h2>
+            <Image
+            src="/bola_basket.png"
+            alt="Bola basket"
+            width={500}
+            height={500}
+            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+            style={{
+              background:
+                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+            }}
+          />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -72,13 +83,13 @@ function Basket() {
               </p>
             ))}
           </div>
-          {/* Image of Bola Basket (Basketball) */}
+          {/* Image of Bola basket */}
           <Image
             src="/bola_basket.png"
             alt="Bola basket"
             width={500}
             height={500}
-            className="self-center w-[130px] lg:w-[400px]"
+            className="hidden lg:block self-center w-[130px] lg:w-[400px]"
             style={{
               background:
                 "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",

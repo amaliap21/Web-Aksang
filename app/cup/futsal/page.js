@@ -63,6 +63,17 @@ function Futsal() {
             <h2 className="text-custom-yellow text-[24px] lg:text-[40px] font-bold">
               Ketentuan
             </h2>
+            <Image
+            src="/bola_futsal.png"
+            alt="Bola Futsal"
+            width={500}
+            height={500}
+            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+            style={{
+              background:
+                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+            }}
+          />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -79,7 +90,7 @@ function Futsal() {
             alt="Bola Futsal"
             width={500}
             height={500}
-            className="self-center w-[130px] lg:w-[400px]"
+            className="hidden lg:block self-center w-[130px] lg:w-[400px]"
             style={{
               background:
                 "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
