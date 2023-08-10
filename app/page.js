@@ -8,13 +8,12 @@ const Home = () => {
   // Array of event details
   const events = [
     {
-      title: "ByteTech Summit",
-      description:
-        "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
+      title: "Cup",
+      description: "Pertandingan basket dan futsal antar angkatan di HMIF",
       buttonText: "KUNJUNGI",
       buttonUrl: "/",
       imageAlt: "Cup",
-      imageUrl: "/mini-robot.png",
+      imageUrl: "/peluit.png",
       width: 200,
       height: 200,
     },

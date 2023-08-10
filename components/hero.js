@@ -28,9 +28,8 @@ const Hero = () => {
               Website
             </h1>
             <p className="mt-[15px] flex  text-white font-montserrat text-[16px] lg:text-xl font-[400] tracking-[0.16px] leading-[140%]">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s
+              “Byte” merupakan anggota dari angkatan IF/STI 2022. Selamat datang
+              di kanal media Byte, yuk eksplorasi bersama!
             </p>
             <Link href="/">
               <button className="mt-[30px] w-[180px] h-[45px] lg:w-[226px] lg:h-[58px] text-white hover:bg-[#3c21d6] duration-300 transition bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-sm lg:text-[16px] font-semibold rounded-[10px] py-[10px] px-[20px]">
