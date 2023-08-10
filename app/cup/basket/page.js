@@ -1,3 +1,4 @@
+import DocumentationClient from "@/components/documentation-client";
 import IconCardAlt from "@/components/icon-card-alt";
 import PersuasiveQr from "@/components/persuasive-qr";
 import Image from "next/image";
@@ -12,7 +13,45 @@ function Basket() {
     "Tim dinyatakan kalah W.O. (WalkOut) jika keterlambatan sudah melewati batas toleransi, yaitu 10 menit dari jadwal. Tim lawan akan diberikan kemenangan dengan skor 20-0.",
     "Setiap pemain wajib menggunakan sepatu dan pelindung kaki (decker). Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
   ];
-
+  const documentationData = [
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 1",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 1",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 2",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 3",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 4",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 5",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Basket yang pernah diraih 6",
+    },
+    // Add more objects as needed
+  ];
   // Return the JSX markup for the component
   return (
     <main className=" font-montserrat bg-[#092079] min-h-screen overflow-hidden">
@@ -58,22 +97,22 @@ function Basket() {
 
         {/* Ketentuan (Rules) Section */}
         <div className="flex mb-[120px] lg:mb-[200px] justify-center gap-3 lg:gap-20 2xl:gap-40">
-        <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
+          <div className="flex flex-col gap-[20px] lg:gap-[24px] lg:mr-[32px]">
             <h2 className="text-custom-yellow text-[24px] lg:text-[40px] font-bold">
               Ketentuan
             </h2>
             <Image
-            src="/bola_basket.png"
-            alt="Bola basket"
-            priority
-            width={500}
-            height={500}
-            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
-            style={{
-              background:
-                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
-            }}
-          />
+              src="/bola_basket.png"
+              alt="Bola basket"
+              priority
+              width={500}
+              height={500}
+              className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+              style={{
+                background:
+                  "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+              }}
+            />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -137,6 +176,7 @@ function Basket() {
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
       />
+      <DocumentationClient documentationData={documentationData} />
     </main>
   );
 }
