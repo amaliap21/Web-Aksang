@@ -66,6 +66,7 @@ function Futsal() {
             <Image
             src="/bola_futsal.png"
             alt="Bola Futsal"
+            priority
             width={500}
             height={500}
             className="lg:hidden block self-center w-[130px] lg:w-[400px]"
@@ -90,6 +91,7 @@ function Futsal() {
             alt="Bola Futsal"
             width={500}
             height={500}
+            priority
             className="hidden lg:block self-center w-[130px] lg:w-[400px]"
             style={{
               background:

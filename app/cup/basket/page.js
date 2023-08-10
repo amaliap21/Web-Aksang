@@ -65,6 +65,7 @@ function Basket() {
             <Image
             src="/bola_basket.png"
             alt="Bola basket"
+            priority
             width={500}
             height={500}
             className="lg:hidden block self-center w-[130px] lg:w-[400px]"
@@ -87,6 +88,7 @@ function Basket() {
           <Image
             src="/bola_basket.png"
             alt="Bola basket"
+            priority
             width={500}
             height={500}
             className="hidden lg:block self-center w-[130px] lg:w-[400px]"
