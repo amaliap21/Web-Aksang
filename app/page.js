@@ -8,12 +8,32 @@ const Home = () => {
   // Array of event details
   const events = [
     {
+      title: "Exhi(Byte)On",
+      description: "Pameran karya milestone angkatan BYTE dengan tema Sustainable Development Goals.",
+      buttonText: "KUNJUNGI",
+      buttonUrl: "/exhibyteon",
+      imageAlt: "Exhi(Byte)On",
+      imageUrl: "/mini-robot.png",
+      width: 250,
+      height: 250,
+    },
+    {
       title: "Cup",
       description: "Pertandingan basket dan futsal antar angkatan di HMIF",
       buttonText: "KUNJUNGI",
       buttonUrl: "/cup/futsal",
       imageAlt: "Cup",
       imageUrl: "/peluit.png",
+      width: 200,
+      height: 200,
+    },
+    {
+      title: "ByteTech Summit",
+      description: "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
+      buttonText: "KUNJUNGI",
+      buttonUrl: "/summit",
+      imageAlt: "ByteTech Summit",
+      imageUrl: "/zoom.png",
       width: 200,
       height: 200,
     },
