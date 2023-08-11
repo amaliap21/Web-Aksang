@@ -9,7 +9,8 @@ const Home = () => {
   const events = [
     {
       title: "Exhi(Byte)On",
-      description: "Pameran karya milestone angkatan BYTE dengan tema Sustainable Development Goals.",
+      description:
+        "Pameran teknologi yang mengangkat tema isu-isu global serta permasalahan di lingkungan kampus.",
       buttonText: "KUNJUNGI",
       buttonUrl: "/exhibyteon",
       imageAlt: "Exhi(Byte)On",
@@ -29,7 +30,8 @@ const Home = () => {
     },
     {
       title: "ByteTech Summit",
-      description: "Talkshow bersama alumni HMIF dengan tema “Nilai Etika dan Sikap sebagai Informatikawan”",
+      description:
+        "Puncak acara yang mewadahi talkshow dengan topik seputar keprofesian di bidang informatika.",
       buttonText: "KUNJUNGI",
       buttonUrl: "/summit",
       imageAlt: "ByteTech Summit",
