@@ -8,7 +8,7 @@ import { useRef, useEffect } from "react";
 import HamburgerIcon from "./icons/hamburger-icon";
 import CrossIcon from "./icons/cross-icon";
 
-const Navbar = ({expandNavbar, setExpandNavbar}) => {
+const Navbar = ({ expandNavbar, setExpandNavbar }) => {
   const pathname = usePathname();
   const [isHovered, setIsHovered] = useState(false);
   const blackBgRef = useRef(null);
@@ -99,7 +99,7 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
             <li
               key={item.name}
               className={`relative hover:fill-custom-yellow ${
-                pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
+                pathname.toLowerCase().includes(item.url.toLowerCase()) ||
                 pathname === item.url
                   ? "text-custom-yellow"
                   : "text-white"
@@ -116,7 +116,12 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
                   size={30}
                   className={`${
                     isHovered ? "rotate-180" : "rotate-0"
-                  } transition duration-300 ease-in-out w-[20px] hover:fill-custom-yellow aspect-square fill-white group-hover/container:fill-custom-yellow`}
+                  } transition duration-300 ease-in-out w-[20px] hover:fill-custom-yellow aspect-square ${
+                    pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
+                    pathname === item.url
+                      ? "fill-custom-yellow"
+                      : "fill-white"
+                  } group-hover/container:fill-custom-yellow`}
                 />
                 {item.name}
               </button>
@@ -132,7 +137,7 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
               >
                 {/* Mapping dropdown content */}
                 {item.subtitle.map((subitem, index) => (
-                  <Link key={index} href={`/cup/${subitem.url}`}>
+                  <Link key={index} href={`${item.url}/${subitem.url}`}>
                     <li
                       className={`${
                         pathname.includes(subitem.url)
@@ -151,8 +156,7 @@ const Navbar = ({expandNavbar, setExpandNavbar}) => {
             <Link key={item.name} href={item.url}>
               <li
                 className={`${
-                  pathname.toLowerCase().startsWith(item.url.toLowerCase()) ||
-                  pathname === item.url
+                  pathname.toLowerCase() === item.url.toLowerCase()
                     ? "text-custom-yellow"
                     : "text-white"
                 } hover:text-custom-yellow`}

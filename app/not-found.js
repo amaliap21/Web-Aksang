@@ -28,13 +28,13 @@ const NotFound = () => {
               background:
                 "linear-gradient(270deg, #7721D6 0%, rgba(119, 33, 214, 0.60) 100%)",
             }}
-            className="w-full lg:w-fit flex text-sm  lg:text-lg font-montserrat items-center justify-center gap-3 lg:gap-5 font-semibold px-6 lg:px-8 py-1 border border-white rounded-2xl"
+            className="w-full text-white lg:w-fit flex text-sm  lg:text-lg font-montserrat items-center justify-center gap-3 lg:gap-5 font-semibold px-6 lg:px-8 py-1 border border-white rounded-2xl"
           >
             <BackIcon
               size={40}
               className="rotate-180 fill-white w-[25px] aspect-square"
             />
-            <Link href="/">Back to Home</Link>
+            <Link href="/" className="text-white">Back to Home</Link>
           </button>
         </div>
       </div>
