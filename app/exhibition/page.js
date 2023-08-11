@@ -4,23 +4,7 @@ import Image from "next/image";
 export default function Home() {
     return (
       <main
-      className="p-10 lg:p-24 bg-custom-blue">
-
-        {/* <Image
-        src="/Group 431.png"
-        alt="3D Hexagon"
-        width={264.87*5}
-        height={226.24*5}
-        className=" absolute w-[500px] sm:w-[750px] md:w-[800px] lg:w-[1000px] xl:w-[1310px] -top-[30px] -left-[150px] sm:-top-[150px] sm:-left-[310px] md:-top-[150px] md:-left-[300px] lg:-top-[170px] lg:-left-[380px] xl:-top-[270px] xl:-left-[510px]"
-        ></Image>
-
-        <Image
-        src="/Group 39.png"
-        alt="3D Halograph"
-        width={384.1*2}
-        height={384.1*2}
-        className=" absolute w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[768px] top-[30px] -right-[100px] md:top-[20px] md:-right-[150px] lg:top-[10px] lg:-right-[180px] xl:-top-[30px] xl:-right-[300px] "
-        ></Image> */}
+      className="p-10 lg:p-24 bg-custom-blue overflow-hidden">
 
         <Image
         src="/Group 49.png"
@@ -77,8 +61,6 @@ export default function Home() {
           >
           </ExhibitionCard>
           <ExhibitionCard
-            // imageAlt="3D Hexagon"
-            // imageUrl={"/Group 49.png"}
           >
           </ExhibitionCard>
           </div>
