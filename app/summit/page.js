@@ -67,16 +67,16 @@ export default function SummitPage() {
       {/* Mengapa Harus Join Summit? */}
     <Image src="/summitbgv2.svg" alt="Background summit2" width={572} height={572} className='w-[500px] aspect-square absolute z-10 bottom-[700px] left-[-80px]'></Image>
       <div class="flex item-center justify-center my-[100px]">
-        <div class= "w-fit flex justify-center flex-wrap">
-          <div class="mx-auto self-center z-0 ">
-            <Image src={"/giftNc.png"} alt="Gift" width={620} height={630}></Image>
+        <div class= "w-fit max-w-[80%] flex justify-center flex-wrap">
+          <div class="mx-auto my-[50px] self-center z-0 flex justify-center align-center">
+            <Image src={"/giftNc.png"} alt="Gift" width={620} height={630} class="max-w-[80%]"></Image>
           </div>
-          <div class="flex flex-col gap-[60px] mx-auto">
-            <h1 class="w-4/6 break-words text-left font-montserrat text-white font-bold text-[36px]">
+          <div class="flex flex-col gap-[60px] mx-auto max-w-[100%]">
+            <h1 class=" md:w-4/6 break-words text-left font-montserrat text-white font-bold text-[24px] md:text-[36px]">
               Mengapa <span class="text-custom-yellow">Harus Join Byte</span> Summit?
             </h1>
 
-            <div class="box-border w-[675px] gap-[60px] text-white flex flex-wrap justify-between">
+            <div class="box-border md:w-[675px] gap-[20px] md:gap-[60px] text-white flex flex-wrap justify-center">
               {
                   textBenefit.map((text,index) => (
                       <Benefit {... text} key={index}/>
