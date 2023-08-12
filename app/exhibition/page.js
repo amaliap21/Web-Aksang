@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
     return (
       <main
-      className="p-10 lg:p-24 bg-custom-blue overflow-hidden">
+      className="p-10 lg:p-24 bg-custom-blue min-h-screen absolute overflow-hidden">
 
         <Image
         src="/Group 49.png"
@@ -19,7 +19,7 @@ export default function Home() {
         alt="3D Hexagon"
         width={264.87*1.3}
         height={226.24*1.3}
-        className="absolute w-[140px] sm:w-[180px] md:w-[220px] lg:w-[290px] xl:w-[400px] top-[50px] -right-[30px] md:top-[50px] md:-right-[70px] lg:top-[120px] xl:top-[40px] xl:-right-[130px]"
+        className=" absolute w-[140px] sm:w-[180px] md:w-[220px] lg:w-[290px] xl:w-[400px] top-[50px] -right-[30px] md:top-[50px] md:-right-[70px] lg:top-[120px] xl:top-[40px] xl:-right-[130px]"
         >
 
         </Image>
