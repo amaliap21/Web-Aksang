@@ -31,11 +31,9 @@ const Hero = () => {
               “Byte” merupakan anggota dari angkatan IF/STI 2022. Selamat datang
               di kanal media Byte, yuk eksplorasi bersama!
             </p>
-            <Link href="/">
-              <button className="mt-[30px] w-[180px] h-[45px] lg:w-[226px] lg:h-[58px] text-white hover:bg-[#3c21d6] duration-300 transition bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] font-montserrat text-sm lg:text-[16px] font-semibold rounded-[10px] py-[10px] px-[20px]">
-                EXPLORE MORE
-              </button>
-            </Link>
+            <button className="mt-[30px] w-[180px] h-[45px] lg:w-[226px] lg:h-[58px] bg-gradient-to-l from-[#7721D6] to-[150%] to-[rgba(119, 33, 214, 0.00)] hover:bg-[#3c21d6]  text-white  duration-300 transition font-montserrat text-sm lg:text-[16px] font-semibold rounded-[10px] py-[10px] px-[20px]">
+              <Link href="#about">EXPLORE MORE</Link>
+            </button>
           </div>
           <Image
             src="/laptop.png"

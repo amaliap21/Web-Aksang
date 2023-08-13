@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className=" flex flex-col md:flex-col gap-5 lg:gap-10 overflow-hidden z-10">
+    <div id="about" className=" flex flex-col md:flex-col gap-5 lg:gap-10 overflow-hidden z-10">
       <h1 className=" text-center text-[#FADE7A] font-montserrat text-[32px] lg:text-5xl font-[700] tracking-[0.54px] leading-[140%]">
         About{" "}
         <span className=" text-center text-white font-montserrat font-[700]">

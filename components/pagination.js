@@ -1,5 +1,5 @@
-const { default: ChevronIcon } = require("./icons/chevron-icon");
-const { default: DotIcon } = require("./icons/dot-icon");
+import ChevronIcon from "./icons/chevron-icon";
+import DotIcon from "./icons/dot-icon";
 
 const Pagination = ({
   numberPage,
@@ -54,7 +54,7 @@ const Pagination = ({
               aria-label={`Page-${number}`}
               className={`${
                 currentNumberPage === number && "scale-105"
-              } transition duration-300 hover:scale-125 hover:drop-shadow-[0px_0px_4px_#FFFFFF] `}
+              } transition duration-300 hover:scale-125 hover:drop-shadow-[0px_0px_4px_#FFFFFF]`}
             >
               <DotIcon
                 size={12}

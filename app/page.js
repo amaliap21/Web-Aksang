@@ -43,7 +43,7 @@ const Home = () => {
 
   // Return the JSX markup for the component
   return (
-    <main className="flex relative min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 sm:px-20 md:px-24 lg:py-24 lg:px-20 2xl:px-32 bg-custom-blue ">
+    <main className="flex relative min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 sm:px-20 md:px-24 lg:py-24 2xl:py-40 lg:px-20 2xl:px-32 bg-custom-blue ">
       {/* Background Image */}
       <Image
         src="/back-bawah.svg"
