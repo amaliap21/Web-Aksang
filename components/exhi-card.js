@@ -35,17 +35,21 @@ const ExhibitionCard = ({
           ></Image>
 
           <div className="w-full py-4 lg:py-5 flex flex-col items-center gap-1 lg:gap-3 px-2">
-            <h2 className="text-center font-bold text-lg lg:text-2xl text-custom-yellow">
+            <h2 className="text-center font-montserrat font-bold text-lg lg:text-2xl text-custom-yellow">
               {namaKelompok}
             </h2>
-            <h3 className="text-center font-bold text-lg lg:text-2xl -mt-0.5">
+            <h3 className="text-center font-montserrat font-bold text-lg lg:text-2xl -mt-0.5">
               {namaProjek}
             </h3>
-            <p className="text-center text-sm lg:text-lg">{description}</p>
+            <p className="text-center font-montserrat text-sm lg:text-lg">
+              {description}
+            </p>
           </div>
           {linkUrl && (
-            <button className="flex flex-col font-semibold text-white mx-auto text-center text-sm md:text-lg xl:text-xl px-8 py-3 scale-y-90 hover:bg-[#a568e7] bg-gradient-to-r from-[#7721d6] to-[#7721D68A] transition duration-300 rounded-xl">
-              <Link href={linkUrl}>VISIT</Link>
+            <button className="flex flex-col font-montserrat font-semibold text-white mx-auto text-center text-sm md:text-lg xl:text-xl px-8 py-3 scale-y-90 hover:bg-[#a568e7] bg-gradient-to-r from-[#7721d6] to-[#7721D68A] transition duration-300 rounded-xl">
+              <Link href={linkUrl} target="_blank">
+                VISIT
+              </Link>
             </button>
           )}
         </div>
