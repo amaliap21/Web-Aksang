@@ -15,7 +15,7 @@ const ExhibitionCard = ({
   return (
     <div
       key={namaKelompok}
-      className="cursor-pointer drop-shadow-xl animate-blink rounded-[30px] bg-gradient-to-br from-[rgba(55,202,140,0.7)] via-[rgba(143,254,207,0.46)] to-[rgba(157,248,204,0.3)] p-1 hover:scale-105 transition duration-300 ease-in-out"
+      className="cursor-pointer drop-shadow-xl animate-blink rounded-3xl bg-gradient-to-br from-[rgba(55,202,140,0.7)] via-[rgba(143,254,207,0.46)] to-[rgba(157,248,204,0.3)] p-1 hover:scale-105 transition duration-300 ease-in-out"
     >
       <div className="h-full bg-[#092079;] rounded-3xl">
         <div
@@ -31,7 +31,7 @@ const ExhibitionCard = ({
             height={height}
             src={imageUrl}
             alt={imageAlt}
-            className={`rounded-t-[25px] w-full h-[200px] sm:h-[150px] md:h-[240px] lg:h-[300px] object-center object-cover bg-[url('/logo.png')]`}
+            className={`rounded-t-3xl w-full h-[200px] sm:h-[150px] md:h-[240px] lg:h-[300px] object-center object-cover bg-[url('/logo.png')]`}
           ></Image>
 
           <div className="w-full py-4 lg:py-5 flex flex-col items-center gap-1 lg:gap-3 px-2">
