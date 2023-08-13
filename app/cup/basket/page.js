@@ -11,7 +11,7 @@ function Basket() {
     "Setiap tim yang bertanding adalah tim yang terdaftar sebagai peserta cup. Setiap tim mengirim perwakilan sebanyak 7-8 pemain dan pemain hanya dapat bermain untuk satu tim saja.",
     "Sistem pertandingan adalah sistem knock-out, sehingga tim yang menang akan lanjut ke babak berikutnya, dan yang kalah akan langsung gugur.",
     "Tim dinyatakan kalah W.O. (WalkOut) jika keterlambatan sudah melewati batas toleransi, yaitu 10 menit dari jadwal. Tim lawan akan diberikan kemenangan dengan skor 20-0.",
-    "Setiap pemain wajib menggunakan sepatu dan pelindung kaki (decker). Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
+    "Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
   ];
   const documentationData = [
     {
