@@ -7,15 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        tmd: "787px",
-      },
       fontFamily: {
         inter: ["var(--font-inter)"],
         montserrat: ["var(--font-montserrat)"],
       },
       screens: {
         "3xl": "1800px",
+        tmd: "550px",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

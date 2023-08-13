@@ -183,7 +183,7 @@ export default function SummitPage() {
                 Summit?
               </h1>
 
-              <div className="box-border md:w-[675px] gap-[20px] md:gap-[60px] text-white flex flex-wrap justify-center">
+              <div className="box-border md:w-[675px] gap-[20px] sm:gap-[30px] md:gap-[60px] text-white flex flex-wrap justify-center">
                 {textBenefit.map((text, index) => (
                   <Benefit {...text} key={index} />
                 ))}
