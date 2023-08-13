@@ -178,7 +178,9 @@ function Futsal() {
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
       />
+      {documentationData && 
       <DocumentationClient documentationData={documentationData} />
+      }
     </main>
   );
 }

@@ -258,6 +258,42 @@ export default function Home() {
 }
 
 export const metadata = {
-  title: "Byte | Exhi(byte)on",
-  description: "Website aksi angkatan Byte",
+  title: "Exhi(byte)on | Byte",
+  description:
+    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+  generator: "Next.js",
+  applicationName: "Byte",
+  colorScheme: "dark",
+  openGraph: {
+    title: "Exhi(byte)on | Byte",
+    description:
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    url: "https://byte22.steikitb.site/",
+    siteName: "Byte",
+    images: [
+      {
+        url: "https://byte22.steikitb.site/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Byte Logo",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Exhi(byte)on | Byte",
+    description:
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    images: [
+      {
+        url: "https://byte22.steikitb.site/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Byte Logo",
+      },
+    ],
+  },
 };
+

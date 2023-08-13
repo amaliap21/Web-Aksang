@@ -176,7 +176,9 @@ function Basket() {
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
       />
-      <DocumentationClient documentationData={documentationData} />
+      {documentationData && (
+        <DocumentationClient documentationData={documentationData} />
+      )}
     </main>
   );
 }
