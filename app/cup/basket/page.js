@@ -177,7 +177,9 @@ function Basket() {
         buttonText="DAFTAR DISINI"
         linkUrl="https://bit.ly/DaftarBYTECup"
       />
-      <DocumentationClient documentationData={documentationData} />
+      {documentationData && (
+        <DocumentationClient documentationData={documentationData} />
+      )}
     </main>
   );
 }

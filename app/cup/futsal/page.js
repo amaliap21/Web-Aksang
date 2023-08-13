@@ -179,7 +179,9 @@ function Futsal() {
         buttonText="DAFTAR DISINI"
         linkUrl="https://bit.ly/DaftarBYTECup"
       />
+      {documentationData && 
       <DocumentationClient documentationData={documentationData} />
+      }
     </main>
   );
 }
