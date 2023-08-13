@@ -14,7 +14,7 @@ const ExhibitionClient = ({ data }) => {
   const numberPage = Math.ceil(data.length / listPerPage);
 
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-10 lg:gap-16">
       <div className="grid h-fit gap-7 pt-10 lg:gap-12 items-stretch grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
         {currentList.map((item, index) => (
           <ExhibitionCard
