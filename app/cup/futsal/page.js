@@ -1,3 +1,5 @@
+import DocumentationCard from "@/components/documentation-card";
+import DocumentationClient from "@/components/documentation-client";
 import IconCardAlt from "@/components/icon-card-alt";
 import PersuasiveQr from "@/components/persuasive-qr";
 import Image from "next/image";
@@ -12,7 +14,45 @@ function Futsal() {
     "Tim dinyatakan kalah W.O. (WalkOut) jika keterlambatan sudah melewati batas toleransi, yaitu 10 menit dari jadwal. Tim lawan akan diberikan kemenangan dengan skor 3-0.",
     "Setiap pemain wajib menggunakan sepatu dan pelindung kaki (decker). Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
   ];
-
+  const documentationData = [
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 1",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 1",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 2",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 3",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 4",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 5",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 6",
+    },
+    // Add more objects as needed
+  ];
   return (
     <main className=" font-montserrat bg-[#092079] min-h-screen overflow-hidden">
       <div className="px-8 lg:px-12">
@@ -64,17 +104,17 @@ function Futsal() {
               Ketentuan
             </h2>
             <Image
-            src="/bola_futsal.png"
-            alt="Bola Futsal"
-            priority
-            width={500}
-            height={500}
-            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
-            style={{
-              background:
-                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
-            }}
-          />
+              src="/bola_futsal.png"
+              alt="Bola Futsal"
+              priority
+              width={500}
+              height={500}
+              className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+              style={{
+                background:
+                  "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+              }}
+            />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -138,6 +178,7 @@ function Futsal() {
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
       />
+      <DocumentationClient documentationData={documentationData} />
     </main>
   );
 }

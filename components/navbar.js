@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
-import ChevronIcon from "./icons/chevron-icon";
+import CircleChevronIcon from "./icons/circle-chevron-icon";
 import { useRef, useEffect } from "react";
 import HamburgerIcon from "./icons/hamburger-icon";
 import CrossIcon from "./icons/cross-icon";
@@ -112,7 +112,7 @@ const Navbar = ({ expandNavbar, setExpandNavbar }) => {
                 onMouseLeave={() => setIsHovered(false)}
                 onClick={() => setIsHovered(!isHovered)}
               >
-                <ChevronIcon
+                <CircleChevronIcon
                   size={30}
                   className={`${
                     isHovered ? "rotate-180" : "rotate-0"
