@@ -13,7 +13,10 @@ const ExhibitionCard = ({
   linkUrl,
 }) => {
   return (
-    <div key={namaKelompok} className="cursor-pointer drop-shadow-xl animate-blink rounded-[30px] bg-gradient-to-br from-[rgba(55,202,140,0.7)] via-[rgba(143,254,207,0.46)] to-[rgba(157,248,204,0.3)] p-1 hover:scale-105 transition duration-300 ease-in-out">
+    <div
+      key={namaKelompok}
+      className="cursor-pointer drop-shadow-xl animate-blink rounded-[30px] bg-gradient-to-br from-[rgba(55,202,140,0.7)] via-[rgba(143,254,207,0.46)] to-[rgba(157,248,204,0.3)] p-1 hover:scale-105 transition duration-300 ease-in-out"
+    >
       <div className="h-full bg-[#092079;] rounded-3xl">
         <div
           style={{
@@ -23,6 +26,7 @@ const ExhibitionCard = ({
           className="w-full h-full p-3 pb-5  text-white font-montserrat items-center rounded-3xl bg-gradient-to-br from-[##FFFFFF1A] to-[#FFFFFF40] relative"
         >
           <Image
+            priority
             width={width}
             height={height}
             src={imageUrl}
