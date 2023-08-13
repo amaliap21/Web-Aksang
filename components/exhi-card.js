@@ -44,7 +44,7 @@ const ExhibitionCard = ({
             <p className="text-center text-sm lg:text-lg">{description}</p>
           </div>
           {linkUrl && (
-            <button className="flex flex-col font-semibold text-white mx-auto text-center text-sm md:text-lg xl:text-xl px-8 py-3 scale-y-90 hover:bg-[#9250d9] bg-gradient-to-r from-[#7721d6] to-[#7721D68A] transition duration-300 rounded-xl">
+            <button className="flex flex-col font-semibold text-white mx-auto text-center text-sm md:text-lg xl:text-xl px-8 py-3 scale-y-90 hover:bg-[#a568e7] bg-gradient-to-r from-[#7721d6] to-[#7721D68A] transition duration-300 rounded-xl">
               <Link href={linkUrl}>VISIT</Link>
             </button>
           )}
