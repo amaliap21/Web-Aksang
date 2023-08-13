@@ -2,6 +2,7 @@ import Image from "next/image";
 import Benefit from "@/components/summit_benefit";
 import IconCardAlt from "@/components/icon-card-alt";
 import PersuasiveQr from "@/components/persuasive-qr";
+import DocumentationClient from "@/components/documentation-client";
 
 const textBenefit = [
   {
@@ -23,6 +24,45 @@ const textBenefit = [
 ];
 
 export default function SummitPage() {
+  const documentationData = [
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 1",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 1",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 2",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 3",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 4",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 5",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 6",
+    },
+    // Add more objects as needed
+  ];
   return (
     <main className="bg-[#092079] min-h-screen w-full overflow-hidden relative flex flex-col">
       <div className="relative z-10 flex flex-col px-8 lg:px-12">
@@ -126,7 +166,7 @@ export default function SummitPage() {
           className="w-[500px] aspect-square absolute z-[-4] bottom-[700px] left-[-80px]"
         ></Image>
         <div className="flex item-center justify-center my-[60px] lg:my-[80px] 2xl:my-[100px]">
-          <div className="w-fit max-w-[80%] lg:gap-20 flex justify-center flex-wrap">
+          <div className="w-full lg:w-fit lg:max-w-[80%] lg:gap-20 flex justify-center flex-wrap">
             <div className="mx-auto mb-[50px] lg:my-auto self-center z-0 flex justify-center align-center">
               <Image
                 src={"/giftNc.png"}
@@ -137,7 +177,7 @@ export default function SummitPage() {
               ></Image>
             </div>
             <div className="flex flex-col gap-10 lg:gap-[60px] mx-auto">
-              <h1 className=" md:w-4/6 break-words text-left font-montserrat text-white font-bold text-xl lg:text-4xl">
+              <h1 className=" md:w-4/6 break-words text-center lg:text-left font-montserrat text-white font-bold text-xl lg:text-4xl">
                 Mengapa{" "}
                 <span className="text-custom-yellow">Harus Join Byte</span>{" "}
                 Summit?
@@ -183,6 +223,49 @@ export default function SummitPage() {
         buttonText="DAFTAR DISINI"
         linkUrl="/"
       />
+      <DocumentationClient documentationData={documentationData} />
+
     </main>
   );
 }
+
+
+export const metadata = {
+  title: "Summit | Byte",
+  description:
+    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+  generator: "Next.js",
+  applicationName: "Byte",
+  colorScheme: "dark",
+  openGraph: {
+    title: "Summit | Byte",
+    description:
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    url: "https://byte22.steikitb.site/",
+    siteName: "Byte",
+    images: [
+      {
+        url: "https://byte22.steikitb.site/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Byte Logo",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Summit | Byte",
+    description:
+      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    images: [
+      {
+        url: "https://byte22.steikitb.site/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Byte Logo",
+      },
+    ],
+  },
+};

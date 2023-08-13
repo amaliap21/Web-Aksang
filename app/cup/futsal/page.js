@@ -1,3 +1,5 @@
+import DocumentationCard from "@/components/documentation-card";
+import DocumentationClient from "@/components/documentation-client";
 import IconCardAlt from "@/components/icon-card-alt";
 import PersuasiveQr from "@/components/persuasive-qr";
 import Image from "next/image";
@@ -12,7 +14,45 @@ function Futsal() {
     "Tim dinyatakan kalah W.O. (WalkOut) jika keterlambatan sudah melewati batas toleransi, yaitu 10 menit dari jadwal. Tim lawan akan diberikan kemenangan dengan skor 3-0.",
     "Setiap pemain wajib menggunakan sepatu dan pelindung kaki (decker). Pemain dilarang menggunakan aksesoris yang dapat membahayakan diri sendiri dan orang lain seperti kalung, cincin, dan gelang.",
   ];
-
+  const documentationData = [
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 1",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 1",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 2",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 3",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 4",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 5",
+    },
+    {
+      imageUrl: "/dummyfutsal.jpg",
+      alt: "Documentation 2",
+      eventName:
+        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 6",
+    },
+    // Add more objects as needed
+  ];
   return (
     <main className=" font-montserrat bg-[#092079] min-h-screen overflow-hidden">
       <div className="px-8 lg:px-12">
@@ -139,6 +179,7 @@ function Futsal() {
         buttonText="DAFTAR DISINI"
         linkUrl="https://bit.ly/DaftarBYTECup"
       />
+      <DocumentationClient documentationData={documentationData} />
     </main>
   );
 }

@@ -14,6 +14,9 @@ module.exports = {
         inter: ["var(--font-inter)"],
         montserrat: ["var(--font-montserrat)"],
       },
+      screens: {
+        "3xl": "1800px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -26,6 +29,16 @@ module.exports = {
         "custom-pink": "#710C50",
         "custom-blue": "#092079",
         "custom-yellow": "#FADE7A",
+      },
+      keyframes: {
+        blink: {
+          "0%": { opacity: "1" },
+          "10%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        blink: "blink 0.5s ease-in-out",
       },
     },
   },
