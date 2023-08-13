@@ -6,20 +6,16 @@ import DocumentationClient from "@/components/documentation-client";
 
 const textBenefit = [
   {
-    texts:
-      "Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 1",
+    texts: "Talkshow dengan pembicara yang berprestasi dan berpengalaman.",
   },
   {
-    texts:
-      "Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 2",
+    texts: "Start-up (Korean series) inspired pitching.",
   },
   {
-    texts:
-      "Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 3",
+    texts: "Performance by SteiWithUs.",
   },
   {
-    texts:
-      "Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor eget dolor morbi. 4",
+    texts: "Doorprize menarik untuk peserta yang beruntung.",
   },
 ];
 
@@ -90,11 +86,12 @@ export default function SummitPage() {
             Empowering Society’s Future Through Informatics
           </h2>
           <p className="font-montserrat mt-10 mb-8 lg:my-14 px-3 text-base lg:text-xl text-white font-regular text-center">
-            Ultricies mi quis hendrerit dolor. A pellentesque sit amet porttitor
-            eget dolor morbi. Nisl purus in mollis nunc sed id semper risus.
-            Semper quis lectus nulla at. Lorem ipsum dolor sit amet consectetur
-            adipiscing. Dui id ornare arcu odio ut. Fusce id velit ut tortor
-            pretium viverra suspendisse.
+            Talkshow &quot;Empowering Society&apos;s Future through
+            Informatics&quot; membahas penerapan teknologi informasi untuk
+            memberdayakan masyarakat dan mencapai keseimbangan antara
+            kepentingan individu dan masyarakat. Pembicara akan mengungkap
+            inovasi dan strategi yang mendukung kesuksesan individu sambil
+            berkontribusi pada kesejahteraan kolektif.
           </p>
         </div>
 
@@ -117,21 +114,20 @@ export default function SummitPage() {
                   ABOUT SPEAKER,
                 </h2>
                 <p className="text-[#092079] text-sm lg:text-base text-justify">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                  ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                  in culpa qui officia deserunt mollit anim id est laborum.{" "}
+                  Azka Alya, mahasiswa Jurusan Sistem Teknologi Informasi (STI)
+                  ITB 2019, adalah seorang pembicara inspiratif dengan prestasi
+                  gemilang. Sebagai Project Officer Arkavidia 8.0, ia terbiasa
+                  mengelola proyek skala besar. Dengan lebih dari 5 proyek
+                  pengabdian masyarakat, 5 kali Career/Competition Mentoring &
+                  Coaching, dan 5 kali magang sebagai Product Manager (PM).
+                  <br />
+                  <br />
+                  Azka menunjukkan komitmen pada pengembangan komunitas dan
+                  profesionalisme. Ia juga telah meraih kemenangan dalam lebih
+                  dari 10 kompetisi bisnis dan UX, menggambarkan analisis tajam
+                  dan inovasi bisnisnya. Sebagai pembicara, pengalaman serta
+                  wawasannya dalam teknologi, manajemen, dan kompetisi akan
+                  memberikan wawasan berharga bagi acara akademik Anda.
                 </p>
               </div>
               {/* KARTU SPEAKER */}
@@ -143,14 +139,14 @@ export default function SummitPage() {
                 }}
               >
                 <Image
-                  src="/tes-thea.jpg"
+                  src="/speaker.jpg"
                   alt="Speaker"
                   width={500}
                   height={500}
                   className="lg:w-[350px] lg:h-[350px] object-cover object-center w-[205px] h-[205px]"
                 />
                 <h2 className="text-white text-base lg:text-2xl tracking-[0.48px] my-auto font-semibold font-montserrat items-center">
-                  SPEAKER NAME
+                  Azka Alya
                 </h2>
               </div>
             </div>
@@ -166,7 +162,7 @@ export default function SummitPage() {
           className="w-[500px] aspect-square absolute z-[-4] bottom-[700px] left-[-80px]"
         ></Image>
         <div className="flex item-center justify-center my-[60px] lg:my-[80px] 2xl:my-[100px]">
-          <div className="w-full lg:w-fit lg:max-w-[80%] lg:gap-20 flex justify-center flex-wrap">
+          <div className="w-full lg:w-fit lg:gap-20 flex justify-center flex-wrap">
             <div className="mx-auto mb-[50px] lg:my-auto self-center z-0 flex justify-center align-center">
               <Image
                 src={"/giftNc.png"}
@@ -197,7 +193,7 @@ export default function SummitPage() {
           {/* Icon Card for Waktu */}
           <IconCardAlt
             title={"Waktu"}
-            description={"Ini waktu Ini waktu Ini waktu Ini waktu Ini waktu"}
+            description={"15 Agustus 2023 (13.30 - 16.30 WIB)"}
             imageUrl={"/waktu.png"}
             imageAlt={"Logo Jam"}
             width={170}
@@ -206,7 +202,7 @@ export default function SummitPage() {
           {/* Icon Card for Tempat */}
           <IconCardAlt
             title={"Tempat"}
-            description={"Ini tempat Ini tempat Ini tempat Ini tempat"}
+            description={"Multipurpose Hall CRCS ITB Lt.3"}
             imageUrl={"/tempat.png"}
             imageAlt={"LogoTempat"}
             width={112}
@@ -223,13 +219,12 @@ export default function SummitPage() {
         buttonText="DAFTAR DISINI"
         linkUrl="/"
       />
-       {documentationData && (
+      {documentationData && (
         <DocumentationClient documentationData={documentationData} />
       )}
     </main>
   );
 }
-
 
 export const metadata = {
   title: "Summit | Byte",
