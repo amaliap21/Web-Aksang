@@ -223,8 +223,9 @@ export default function SummitPage() {
         buttonText="DAFTAR DISINI"
         linkUrl="/"
       />
-      <DocumentationClient documentationData={documentationData} />
-
+       {documentationData && (
+        <DocumentationClient documentationData={documentationData} />
+      )}
     </main>
   );
 }
