@@ -64,17 +64,17 @@ function Futsal() {
               Ketentuan
             </h2>
             <Image
-            src="/bola_futsal.png"
-            alt="Bola Futsal"
-            priority
-            width={500}
-            height={500}
-            className="lg:hidden block self-center w-[130px] lg:w-[400px]"
-            style={{
-              background:
-                "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
-            }}
-          />
+              src="/bola_futsal.png"
+              alt="Bola Futsal"
+              priority
+              width={500}
+              height={500}
+              className="lg:hidden block self-center w-[130px] lg:w-[400px]"
+              style={{
+                background:
+                  "radial-gradient(circle, rgb(47, 67, 142) 55%, rgba(0,0,0,0) 71%",
+              }}
+            />
             {/* Mapping and rendering each rule */}
             {arrayKetentuan.map((text, index) => (
               <p
@@ -137,6 +137,7 @@ function Futsal() {
         whiteText="Segera daftarkan tim kamu!!"
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
+        linkUrl="https://bit.ly/DaftarBYTECup"
       />
     </main>
   );
