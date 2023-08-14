@@ -7,58 +7,62 @@ import DocumentationClient from "@/components/documentation-client";
 const textBenefit = [
   {
     texts: "Talkshow dengan pembicara yang berprestasi dan berpengalaman.",
+    imageUrl: "/summit-1.png",
   },
   {
     texts: "Start-up (Korean series) inspired pitching.",
+    imageUrl: "/summit-3.png",
   },
   {
     texts: "Performance by SteiWithUs.",
+    imageUrl: "/summit-2.png",
   },
   {
     texts: "Doorprize menarik untuk peserta yang beruntung.",
+    imageUrl: "/summit-4.png",
   },
 ];
 
 export default function SummitPage() {
-  const documentationData = [
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 1",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 1",
-    },
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 2",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 2",
-    },
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 2",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 3",
-    },
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 2",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 4",
-    },
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 2",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 5",
-    },
-    {
-      imageUrl: "/dummyfutsal.jpg",
-      alt: "Documentation 2",
-      eventName:
-        "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 6",
-    },
-    // Add more objects as needed
-  ];
+  // const documentationData = [
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 1",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 1",
+  //   },
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 2",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 2",
+  //   },
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 2",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 3",
+  //   },
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 2",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 4",
+  //   },
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 2",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 5",
+  //   },
+  //   {
+  //     imageUrl: "/dummyfutsal.jpg",
+  //     alt: "Documentation 2",
+  //     eventName:
+  //       "Nama Event/ Dokumentasi Kejuaraan Futsal yang pernah diraih 6",
+  //   },
+  //   // Add more objects as needed
+  // ];
   return (
     <main className="bg-[#092079] min-h-screen w-full overflow-hidden relative flex flex-col">
       <div className="relative z-10 flex flex-col px-8 lg:px-12">
@@ -83,7 +87,7 @@ export default function SummitPage() {
             ByteTech <span className="text-[#FADE7A]">Summit</span>
           </h1>
           <h2 className="font-montserrat text-lg lg:text-4xl font-medium mt-3 lg:mt-4 text-white tracking-[0.72px] text-center">
-            Empowering Society’s Future Through Informatics
+            Empowering Society&apos;s Future Through Informatics
           </h2>
           <p className="font-montserrat mt-10 mb-8 lg:my-14 px-3 text-base lg:text-xl text-white font-regular text-center">
             Talkshow &quot;Empowering Society&apos;s Future through
@@ -215,13 +219,13 @@ export default function SummitPage() {
         iconLeftUrl="/bell.png"
         yellowText="Tunggu Apalagi,"
         whiteText="Segera daftarkan dirimu di Summit!!"
-        qrImageUrl="/qr_code.png"
+        qrImageUrl="/qr-summit.png"
         buttonText="DAFTAR DISINI"
-        linkUrl="/"
+        linkUrl="https://forms.gle/4N3BgcMZdKLWAg1j8"
       />
-      {documentationData && (
+      {/* {documentationData && (
         <DocumentationClient documentationData={documentationData} />
-      )}
+      )} */}
     </main>
   );
 }
@@ -229,14 +233,14 @@ export default function SummitPage() {
 export const metadata = {
   title: "Summit | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Talkshow &quot;Empowering Society&apos;s Future through Informatics&quot; membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Summit | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Talkshow &quot;Empowering Society&apos;s Future through Informatics&quot; membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
     url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
