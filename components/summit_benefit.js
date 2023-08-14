@@ -8,8 +8,8 @@ const Benefit = (text = "") => {
         <Image
           src={text.imageUrl}
           alt="benefit"
-          width={200}
-          height={200}
+          width={500}
+          height={500}
           className="w-20 max-w-3/5"
         />
       </div>
