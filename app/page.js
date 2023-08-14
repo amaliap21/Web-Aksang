@@ -43,7 +43,7 @@ const Home = () => {
 
   // Return the JSX markup for the component
   return (
-    <main className="flex relative min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 sm:px-20 md:px-24 lg:py-24 2xl:py-40 lg:px-20 2xl:px-32 bg-custom-blue ">
+    <main className="flex relative min-h-screen flex-col overflow-hidden items-center justify-center gap-20 p-10 sm:px-20 md:px-24 lg:py-24 2xl:py-40 lg:px-20 2xl:px-32 bg-custom-blue z-[0]">
       {/* Background Image */}
       <Image
         src="/back-bawah.svg"
@@ -53,7 +53,7 @@ const Home = () => {
         className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute -right-[270px] sm:-right-48 md:-right-52 2xl:right-0 -bottom-20 z-[1] overflow-hidden"
       />
       {/* Hero section */}
-      <Hero />
+      <Hero className="z-[-1]" />
       {/* About section */}
       <About /> {/* Event section */}
       <section className="flex flex-col items-center justify-center">

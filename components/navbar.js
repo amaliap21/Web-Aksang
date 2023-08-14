@@ -21,7 +21,7 @@ const Navbar = ({ expandNavbar, setExpandNavbar }) => {
     },
     {
       name: "Exhibition",
-      url: "/exhibition",
+      url: "/exhibyteon",
     },
     {
       name: "Cup",

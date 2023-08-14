@@ -11,7 +11,7 @@ const textBenefit = [
   },
   {
     texts: "Start-up (Korean series) inspired pitching.",
-    imageUrl: "/summit-orang.png",
+    imageUrl: "/summit-2.png",
   },
   {
     texts: "Performance by SteiWithUs.",
@@ -65,21 +65,21 @@ export default function SummitPage() {
   // ];
   return (
     <main className="bg-[#092079] min-h-screen w-full overflow-hidden relative flex flex-col">
-      <div className="relative z-10 flex flex-col px-8 lg:px-12">
+      <div className="relative  flex flex-col px-8 lg:px-12">
         {/* BG Image svg */}
         <Image
           src="/summitbg.svg"
           alt="Background summit"
           width={572}
           height={572}
-          className="w-[500px] z-[-1] aspect-square absolute top-0 left-[-80px]"
+          className="w-[500px]  aspect-square absolute top-0 left-[-80px]"
         ></Image>
         <Image
           src="/summitbg.svg"
           alt="Background summit"
           width={572}
           height={572}
-          className="w-[400px] aspect-square absolute z-[-3] top-[130px] right-[-20px] rotate-180 "
+          className="w-[400px] aspect-square absolute  top-[130px] right-[-20px] rotate-180 "
         ></Image>
         {/* TITLE */}
         <div className="px-3 lg:px-20 2xl:px-48 pt-[60px] lg:pt-[120px] ">
@@ -163,11 +163,11 @@ export default function SummitPage() {
           alt="Background summit2"
           width={572}
           height={572}
-          className="w-[500px] aspect-square absolute z-[-4] bottom-[700px] left-[-80px]"
+          className="w-[500px] aspect-square absolute bottom-[700px] left-[-80px]"
         ></Image>
         <div className="flex item-center justify-center my-[60px] lg:my-[80px] 2xl:my-[100px]">
           <div className="w-full lg:w-fit lg:gap-20 flex justify-center flex-wrap">
-            <div className="mx-auto mb-[50px] lg:my-auto self-center z-0 flex justify-center align-center">
+            <div className="mx-auto mb-[50px] lg:my-auto self-center flex justify-center align-center">
               <Image
                 src={"/giftNc.png"}
                 alt="Gift"
@@ -221,7 +221,7 @@ export default function SummitPage() {
         whiteText="Segera daftarkan dirimu di Summit!!"
         qrImageUrl="/qr-summit.png"
         buttonText="DAFTAR DISINI"
-        linkUrl="https://forms.gle/4N3BgcMZdKLWAg1j8"
+        linkUrl="https://bit.ly/BYTEchSummit"
       />
       {/* {documentationData && (
         <DocumentationClient documentationData={documentationData} />
@@ -258,7 +258,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Summit | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Talkshow  'Empowering Society's Future through Informatics'  membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
     images: [
       {
         url: "https://byte22.steikitb.site/logo.png",
