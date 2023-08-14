@@ -17,7 +17,8 @@ export default function Home() {
     {
       namaKelompok: "Kelompok 2",
       namaProjek: "MaPed",
-      description: "Website wikipedia untuk mata kuliah.",
+      description:
+        '"MaPed" adalah website yang berisikan informasi seputar mata kuliah.',
       imageUrl: "/kelompok2.jpg",
       imageAlt: "MaPed",
       width: 1080,
@@ -42,6 +43,7 @@ export default function Home() {
       imageAlt: "TrashMap",
       width: 1080,
       height: 1920,
+      linkUrl: "https://maull09.github.io/trashmap/",
     },
     {
       namaKelompok: "Kelompok 5",
@@ -65,7 +67,7 @@ export default function Home() {
       namaKelompok: "Kelompok 7",
       namaProjek: "iMap",
       description:
-        "Website untuk memudahkan navigasi area kampus iTB yang dikhususkan kepada warga STEI ITB yang menyajikan lokasi dan informasi penting mengenai gedung Labtek V ITB Ganesha dan Gedung KOICA ITB.",
+        "Website untuk memudahkan navigasi area kampus ITB yang dikhususkan kepada warga STEI ITB yang menyajikan lokasi dan informasi penting mengenai gedung Labtek V ITB Ganesha dan Gedung KOICA ITB.",
       imageUrl: "/kelompok7.png",
       imageAlt: "iMap",
       width: 1080,
@@ -73,11 +75,10 @@ export default function Home() {
     },
     {
       namaKelompok: "Kelompok 8",
-      namaProjek: "Project H",
-      description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: "/logo.png",
-      imageAlt: "Project H",
+      namaProjek: "TPBNeeds",
+      description: "Website untuk sentralisasi penjualan kebutuhan TPB.",
+      imageUrl: "/kelompok8.png",
+      imageAlt: "TPBNeeds",
       width: 1080,
       height: 1920,
     },
@@ -121,17 +122,19 @@ export default function Home() {
     {
       namaKelompok: "Kelompok 13",
       namaProjek: "Medals and Trophies",
-      description: "Website Penyedia Informasi Lomba.",
+      description:
+        "Website Penyedia Informasi Lomba. Platform terpusat untuk menjelajahi, mendaftar, dan mengunggah lomba-lomba.",
       imageUrl: "/kelompok13.png",
       imageAlt: "Medals and Trophies",
       width: 1080,
       height: 1920,
     },
+
     {
       namaKelompok: "Kelompok 14",
       namaProjek: "Portal",
       description:
-        "Website Portal Mahasiswa untuk membuka dan menggunakan jasa titip, jasa antre, dan mencari teman untuk hangout bareng.",
+        "Website Portal Mahasiswa untuk mencari informasi mengenai kantin di Kampus ITB Jatinangor.",
       imageUrl: "/kelompok14.jpg",
       imageAlt: "Portal",
       width: 1080,
@@ -203,11 +206,10 @@ export default function Home() {
     },
     {
       namaKelompok: "Kelompok 22",
-      namaProjek: "Project V",
-      description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      imageUrl: "/logo.png",
-      imageAlt: "Project V",
+      namaProjek: "Tempat Makan Yuk!",
+      description: "Website rekomendasi makanan untuk mahasiswa.",
+      imageUrl: "/kelompok22.png",
+      imageAlt: "Tempat Makan Yuk!",
       width: 1080,
       height: 1920,
     },
@@ -244,11 +246,9 @@ export default function Home() {
           Exhi<span className="text-custom-yellow">(byte)</span>on
         </h1>
         <p className="mt-8 text-center text-white text-base font-montserrat lg:text-xl px-6 sm:px-24 md:px-36 xl:px-72">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          aut corporis ad culpa at ea iure! Ratione ullam, dolorum alias quo
-          dolor esse nam ipsum corporis, ipsam aut tenetur? Vel illo minima
-          error illum natus. Esse reprehenderit hic ex qui rem voluptas.
-          Expedita aliquid reiciendis magni, eos dolorum minima similique odit
+          &quot;Exhi(byte)on&quot; merupakan pameran hasil karya Byte berupa
+          proyek perkelompok dengan tujuan menyelesaikan masalah dilingkungan
+          sekitar dengan hasil produk yang memiliki basis keinformatikaan.
         </p>
       </div>
 
@@ -260,14 +260,14 @@ export default function Home() {
 export const metadata = {
   title: "Exhi(byte)on | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Exhi(byte)on adalah ajang pameran yang mempertunjukkan hasil karya-karya dari milestone yang sudah dibuat. Terdapat 23 kelompok yang akan mengikuti pameran ini. Pameran ini mempunyai tujuan untuk menunjukkan solusi solusi komputasi yang dapat digunakan untuk menyelesaikan masalah masalah di kehidupan sehari-hari.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Exhi(byte)on | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Exhi(byte)on adalah ajang pameran yang mempertunjukkan hasil karya-karya dari milestone yang sudah dibuat. Terdapat 23 kelompok yang akan mengikuti pameran ini. Pameran ini mempunyai tujuan untuk menunjukkan solusi solusi komputasi yang dapat digunakan untuk menyelesaikan masalah masalah di kehidupan sehari-hari.",
     url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
@@ -285,7 +285,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Exhi(byte)on | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Exhi(byte)on dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Exhi(byte)on adalah ajang pameran yang mempertunjukkan hasil karya-karya dari milestone yang sudah dibuat. Terdapat 23 kelompok yang akan mengikuti pameran ini. Pameran ini mempunyai tujuan untuk menunjukkan solusi solusi komputasi yang dapat digunakan untuk menyelesaikan masalah masalah di kehidupan sehari-hari.",
     images: [
       {
         url: "https://byte22.steikitb.site/logo.png",
@@ -296,4 +296,3 @@ export const metadata = {
     ],
   },
 };
-
