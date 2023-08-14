@@ -190,14 +190,14 @@ export default Basket;
 export const metadata = {
   title: "Basket | Byte",
   description:
-    "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+    "Basket Cup adalah pertandingan bola basket yang diikuti oleh mahasiswa aktif dari mahasiswa IF/STI tiap angkatan. Pendaftaran tim akan dibuka pada 9  - 12 Agustus 2023.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Basket Cup adalah pertandingan bola basket yang diikuti oleh mahasiswa aktif dari mahasiswa IF/STI tiap angkatan. Pendaftaran tim akan dibuka pada 9  - 12 Agustus 2023.",
     url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
@@ -215,7 +215,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Basket | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba futsal dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Basket Cup adalah pertandingan bola basket yang diikuti oleh mahasiswa aktif dari mahasiswa IF/STI tiap angkatan. Pendaftaran tim akan dibuka pada 9  - 12 Agustus 2023.",
     images: [
       {
         url: "https://byte22.steikitb.site/logo.png",

@@ -258,7 +258,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Summit | Byte",
     description:
-      "Selamat datang di situs resmi SPARTA 22, aksi unggulan dari Angkatan Byte! Kami dengan bangga mempersembahkan lomba Summit dan basket yang akan mengguncang panggung kompetisi. Bergabunglah dengan kami dalam perayaan semangat olahraga, persaingan yang sengit, dan pertemanan yang tak terlupakan.",
+      "Talkshow  'Empowering Society's Future through Informatics'  membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
     images: [
       {
         url: "https://byte22.steikitb.site/logo.png",
