@@ -10,7 +10,7 @@ const Hero = () => {
         alt="background atas"
         width={500}
         height={500}
-        className="absolute -left-0 top-0 w-[200px] lg:w-fit"
+        className="absolute -left-0 top-0 w-[200px] lg:w-fit -z-[1]"
       ></Image>
 
       <div className="flex flex-col md:flex-row">

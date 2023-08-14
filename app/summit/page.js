@@ -11,7 +11,7 @@ const textBenefit = [
   },
   {
     texts: "Start-up (Korean series) inspired pitching.",
-    imageUrl: "/summit-orang.png",
+    imageUrl: "/summit-2.png",
   },
   {
     texts: "Performance by SteiWithUs.",
@@ -64,7 +64,7 @@ export default function SummitPage() {
   //   // Add more objects as needed
   // ];
   return (
-    <main className="bg-[#092079] min-h-screen w-full overflow-hidden relative flex flex-col">
+    <main className="bg-[#092079] min-h-screen w-full overflow-hidden relative flex flex-col -z-[999]">
       <div className="relative z-10 flex flex-col px-8 lg:px-12">
         {/* BG Image svg */}
         <Image
