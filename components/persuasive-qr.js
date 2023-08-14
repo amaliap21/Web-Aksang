@@ -7,6 +7,7 @@ export default function PersuasiveQr({
   iconLeftUrl,
   qrImageUrl,
   buttonText,
+  linkUrl
 }) {
   return (
     <div className=" flex flex-col items-center lg:gap-10 lg:flex-row py-8 px-6 bg-[#9999FF]/50 rounded-tr-[80px] lg:rounded-tr-[120px] min-h-[290px] lg:min-h-[400px] justify-center">
@@ -33,7 +34,7 @@ export default function PersuasiveQr({
             height={150}
           />
         </div>
-        <Link href="https://bit.ly/DaftarBYTECup">
+        <Link href={linkUrl}>
           <button className="mx-auto w-[156px] text-white h-[44px] lg:w-[226px] lg:h-[60px] text-[14px] lg:text-xl bg-[#C53998] border-[#9999FF] mt-[20px] font-semibold rounded-2xl border drop-shadow-xl ">
             {buttonText}
           </button>
