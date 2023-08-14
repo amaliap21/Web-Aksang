@@ -11,7 +11,7 @@ const textBenefit = [
   },
   {
     texts: "Start-up (Korean series) inspired pitching.",
-    imageUrl: "/summit-2.png",
+    imageUrl: "/summit-orang.png",
   },
   {
     texts: "Performance by SteiWithUs.",
