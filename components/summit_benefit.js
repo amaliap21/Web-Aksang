@@ -4,13 +4,13 @@ import React from "react";
 const Benefit = (text = "") => {
   return (
     <div className="box-border w-[150px] tmd:w-[200px] sm:w-[220px] lg:w-[275px] h-fit flex flex-col justify-center items-center gap-[20px]">
-      <div className="box-border w-32 lg:w-40 aspect-square rounded-[20px] bg-gradient-diagonals from-[#9999FF] via-[#9999FF9E] to-[#9999FF00]">
+      <div className="box-border w-32 lg:w-40 aspect-square rounded-[20px] bg-gradient-diagonals from-[#9999FF] via-[#9999FF9E] to-[#9999FF00] flex justify-center items-center">
         <Image
           src={text.imageUrl}
           alt="benefit"
           width={200}
           height={200}
-          className="m-auto py-10 w-10 lg:w-20"
+          className="w-20 max-w-3/5"
         />
       </div>
       <h2 className="text-[16px] lg:text-xl break-words text-center font-montserrat">
