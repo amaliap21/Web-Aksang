@@ -11,11 +11,11 @@ const textBenefit = [
   },
   {
     texts: "Start-up (Korean series) inspired pitching.",
-    imageUrl: "/summit-3.png",
+    imageUrl: "/summit-2.png",
   },
   {
     texts: "Performance by SteiWithUs.",
-    imageUrl: "/summit-2.png",
+    imageUrl: "/summit-3.png",
   },
   {
     texts: "Doorprize menarik untuk peserta yang beruntung.",
@@ -233,14 +233,14 @@ export default function SummitPage() {
 export const metadata = {
   title: "Summit | Byte",
   description:
-    "Talkshow &quot;Empowering Society&apos;s Future through Informatics&quot; membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
+    "Talkshow  'Empowering Society's Future through Informatics'  membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
   generator: "Next.js",
   applicationName: "Byte",
   colorScheme: "dark",
   openGraph: {
     title: "Summit | Byte",
     description:
-      "Talkshow &quot;Empowering Society&apos;s Future through Informatics&quot; membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
+      "Talkshow  'Empowering Society's Future through Informatics'  membahas penerapan teknologi informasi untuk memberdayakan masyarakat dan mencapai keseimbangan antara kepentingan individu dan masyarakat. Pembicara akan mengungkap inovasi dan strategi yang mendukung kesuksesan individu sambil berkontribusi pada kesejahteraan kolektif.",
     url: "https://byte22.steikitb.site/",
     siteName: "Byte",
     images: [
