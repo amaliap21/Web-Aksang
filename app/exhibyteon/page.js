@@ -248,7 +248,7 @@ export default function Home() {
         </h1>
         <p className="mt-8 text-center text-white text-base font-montserrat lg:text-xl px-6 sm:px-24 md:px-36 xl:px-72">
           &quot;Exhi(byte)on&quot; merupakan pameran hasil karya Byte berupa
-          proyek perkelompok dengan tujuan menyelesaikan masalah dilingkungan
+          proyek perkelompok dengan tujuan menyelesaikan masalah di lingkungan
           sekitar dengan hasil produk yang memiliki basis keinformatikaan.
         </p>
       </div>
