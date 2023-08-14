@@ -244,11 +244,7 @@ export default function Home() {
           Exhi<span className="text-custom-yellow">(byte)</span>on
         </h1>
         <p className="mt-8 text-center text-white text-base font-montserrat lg:text-xl px-6 sm:px-24 md:px-36 xl:px-72">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          aut corporis ad culpa at ea iure! Ratione ullam, dolorum alias quo
-          dolor esse nam ipsum corporis, ipsam aut tenetur? Vel illo minima
-          error illum natus. Esse reprehenderit hic ex qui rem voluptas.
-          Expedita aliquid reiciendis magni, eos dolorum minima similique odit
+        &quot;Exhi(byte)on&quot; merupakan pameran hasil karya Byte berupa proyek perkelompok dengan tujuan menyelesaikan masalah dilingkungan sekitar dengan hasil produk yang memiliki basis keinformatikaan.
         </p>
       </div>
 
