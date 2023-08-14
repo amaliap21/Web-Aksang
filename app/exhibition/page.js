@@ -16,8 +16,7 @@ export default function Home() {
     {
       namaKelompok: "Kelompok 2",
       namaProjek: "MaPed",
-      description:
-        '"MaPed" adalah website yang berisikan informasi seputar mata kuliah.',
+      description: "Website wikipedia untuk mata kuliah.",
       imageUrl: "/kelompok2.jpg",
       imageAlt: "MaPed",
       width: 1080,
@@ -27,7 +26,7 @@ export default function Home() {
       namaKelompok: "Kelompok 3",
       namaProjek: "Makan Yuk!",
       description:
-        "Website penyedia informasi mengenai makanan sehat dengan tujuan mempermudah mahasiswa untuk mendapatkan makanan sehat.",
+        "Website Makan Yuk adalah website penyedia informasi mengenai makanan sehat dengan tujuan mempermudah mahasiswa untuk mendapatkan makanan sehat.",
       imageUrl: "/kelompok3.png",
       imageAlt: "Makan Yuk!",
       width: 1080,
@@ -74,10 +73,10 @@ export default function Home() {
     },
     {
       namaKelompok: "Kelompok 8",
-      namaProjek: "TPBNeeds",
+      namaProjek: "Project H",
       description: "Website untuk sentralisasi penjualan kebutuhan TPB.",
-      imageUrl: "/kelompok8.png",
-      imageAlt: "TPBNeeds",
+      imageUrl: "/logo.png",
+      imageAlt: "Project H",
       width: 1080,
       height: 1920,
     },
@@ -103,7 +102,7 @@ export default function Home() {
       namaKelompok: "Kelompok 11",
       namaProjek: "Color Detector",
       description:
-        "MS-11 Color Detector - Aplikasi Color Detection untuk Asistensi Penderita Buta Warna.",
+        "Aplikasi Color Detection untuk Asistensi Penderita Buta Warna.",
       imageUrl: "/kelompok11.png",
       imageAlt: "Color Detector",
       width: 1080,
@@ -112,7 +111,7 @@ export default function Home() {
     {
       namaKelompok: "Kelompok 12",
       namaProjek: "Timefy",
-      description: "Timefy : Website Time Management untuk Mahasiswa.",
+      description: " Website Time Management untuk Mahasiswa.",
       imageUrl: "/kelompok12.png",
       imageAlt: "Timefy",
       width: 1080,
@@ -152,7 +151,7 @@ export default function Home() {
     {
       namaKelompok: "Kelompok 16",
       namaProjek: "Project P",
-      description: "Proyek Milestone Kelompok 16",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       imageUrl: "/logo.png",
       imageAlt: "Project P",
       width: 1080,
@@ -178,24 +177,21 @@ export default function Home() {
     },
     {
       namaKelompok: "Kelompok 19",
-      namaProjek: "Ganesha Space",
-      description:
-        "Ganesha Space: Website informasi Cafe dan Co-working space dekat ITB.",
-      imageUrl: "/kelompok19.png",
-      imageAlt: "Ganesha Space",
+      namaProjek: "Project S",
+      description: "Website Cafe and Co-working space dekat ITB.",
+      imageUrl: "/logo.png",
+      imageAlt: "Project S",
       width: 1080,
       height: 1920,
-      linkUrl: "https://ganesha-space.vercel.app/",
     },
     {
       namaKelompok: "Kelompok 20",
       namaProjek: "sync.tr",
       description: "Website Information Tool.",
-      imageUrl: "/kelompok20.png",
+      imageUrl: "/kelompok20.JPG",
       imageAlt: "sync.tr",
       width: 1080,
       height: 1920,
-      linkUrl: "https://milestone02-k20.vercel.app/",
     },
     {
       namaKelompok: "Kelompok 21",
@@ -208,10 +204,10 @@ export default function Home() {
     },
     {
       namaKelompok: "Kelompok 22",
-      namaProjek: "Tempat Makan Yuk!",
-      description: "Website rekomendasi makanan untuk mahasiswa.",
-      imageUrl: "/kelompok22.png",
-      imageAlt: "Tempat Makan Yuk!",
+      namaProjek: "Project V",
+      description: "Website rekomendasi makanan.",
+      imageUrl: "/logo.png",
+      imageAlt: "Project V",
       width: 1080,
       height: 1920,
     },
@@ -248,9 +244,11 @@ export default function Home() {
           Exhi<span className="text-custom-yellow">(byte)</span>on
         </h1>
         <p className="mt-8 text-center text-white text-base font-montserrat lg:text-xl px-6 sm:px-24 md:px-36 xl:px-72">
-          &quot;Exhi(byte)on&quot; merupakan pameran hasil karya Byte berupa
-          proyek perkelompok dengan tujuan menyelesaikan masalah dilingkungan
-          sekitar dengan hasil produk yang memiliki basis keinformatikaan.
+          Exhi(byte)on adalah ajang pameran yang mempertunjukkan hasil
+          karya-karya dari milestone yang sudah dibuat. Terdapat 23 kelompok
+          yang akan mengikuti pameran ini. Pameran ini mempunyai tujuan untuk
+          menunjukkan solusi solusi komputasi yang dapat digunakan untuk
+          menyelesaikan masalah masalah di kehidupan sehari-hari.
         </p>
       </div>
 
