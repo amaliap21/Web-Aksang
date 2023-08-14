@@ -175,6 +175,7 @@ function Basket() {
         whiteText="Segera daftarkan tim kamu!!"
         qrImageUrl="/qr_code.jpg"
         buttonText="DAFTAR DISINI"
+        linkUrl="https://bit.ly/DaftarBYTECup"
       />
       {documentationData && (
         <DocumentationClient documentationData={documentationData} />
