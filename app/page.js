@@ -53,7 +53,7 @@ const Home = () => {
         className="lg:w-[500px] lg:h-[500px] w-[300px] h-[500px] absolute -right-[270px] sm:-right-48 md:-right-52 2xl:right-0 -bottom-20 z-[1] overflow-hidden"
       />
       {/* Hero section */}
-      <Hero className="z-[-1]"/>
+      <Hero className="z-[-1]" />
       {/* About section */}
       <About /> {/* Event section */}
       <section className="flex flex-col items-center justify-center">
