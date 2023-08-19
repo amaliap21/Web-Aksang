@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+    push:
+      branches:
+        - main
+        - develop
+    pull_request:
+      branches:
+        - main
+        - develop
+
+jobs:
+  build :
+      CI : true
+
+    name : Build the Site
+    runs-on : ubuntu-latest
+    steps :
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+        
+      - name : Build the Site
+        run : npm build
