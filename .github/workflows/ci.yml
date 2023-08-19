@@ -14,7 +14,6 @@ on:
 
 jobs:
   build :
-      CI : true
 
     name : Build the Site
     runs-on : ubuntu-latest
@@ -28,4 +27,5 @@ jobs:
           node-version: 16
         
       - name : Build the Site
-        run : npm build
+        run : yarn build
+
