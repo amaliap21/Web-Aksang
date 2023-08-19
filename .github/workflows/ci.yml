@@ -27,5 +27,5 @@ jobs:
           node-version: 16
         
       - name : Build the Site
-        run : yarn build
+        run : npm build
 
